@@ -11,7 +11,7 @@
 				<div class="row">
 						<div class="col-md-6">
 							<h4>Stonegate Wealth Solutions (Aust) Pty Ltd</h4>
-							<img src="http://localhost/wordpress/wp-content/uploads/2015/05/a.gif" alt="" class="img-responsive">
+							<img src="http://oi60.tinypic.com/akzors.jpg" alt="" class="img-responsive">
 						</div>
 						<div class="col-md-6">
 							<div class="webXcontact">
@@ -26,7 +26,7 @@
 					<div class="row">	
 						<div class="col-md-6">
 							<h4>Bent & Cougle Pty Ltd — Insolvency Administrators</h4>
-							<img src="http://localhost/wordpress/wp-content/uploads/2015/05/b.gif" alt="" class="img-responsive">
+							<img src="http://oi58.tinypic.com/s2y2xi.jpg" alt="" class="img-responsive">
 						</div>
 						<div class="col-md-6">
 							<div class="webXcontact">
@@ -41,7 +41,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<h4>Madgwicks Lawyers</h4>
-							<img src="http://localhost/wordpress/wp-content/uploads/2015/05/c.gif" alt="" class="img-responsive">
+							<img src="http://oi59.tinypic.com/2i07vpi.jpg" alt="" class="img-responsive">
 						</div>
 						<div class="col-md-6">
 							<div class="webXcontact">
@@ -56,7 +56,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<h4>A C Construction Pty Ltd</h4>
-							<img src="http://localhost/wordpress/wp-content/uploads/2015/05/d.gif" alt="" class="img-responsive">
+							<img src="http://oi61.tinypic.com/4sejvd.jpgf" alt="" class="img-responsive">
 						</div>
 						<div class="col-md-6">
 							<div class="webXcontact">
@@ -90,6 +90,7 @@
 					</div>
 					<!-- end -->
 					</div>
+					<img src="http://oi57.tinypic.com/300bt51.jpg" alt="" class="img-responsive cuo">
 			</div>
 		</div>
 	</div>

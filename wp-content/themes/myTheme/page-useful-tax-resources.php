@@ -49,10 +49,10 @@
 		<div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="http://oi61.tinypic.com/2dtkyr.jpg" alt="" class="img-responsive"></li>
+					<li><img src="http://oi58.tinypic.com/2usexr8.jpg" alt="" class="img-responsive"></li>
+					<li><img src="http://oi59.tinypic.com/vqqruf.jpg" alt="" class="img-responsive"></li>
+					<li><img src="http://oi62.tinypic.com/1608vac.jpg" alt="" class="img-responsive"></li>
 				</ul>		
 			</div>
 	</div>

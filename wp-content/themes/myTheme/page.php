@@ -29,7 +29,7 @@
 			</div>
 			
 		</div>
-		<img src="http://localhost/wordpress/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
+		<img src="http://oi60.tinypic.com/15x9br.jpg" alt="" class = "img-responsive yoyo">
 
 		<div class="container content">
 			<div class="topContent">
@@ -41,7 +41,7 @@
 						<a href="http://localhost/wordpress/about-us/">View More</a>
 					</div>
 					<div class="col-md-6">
-						<img src="http://localhost/wordpress/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
+						<img src="http://oi61.tinypic.com/4tps1j.jpg" alt="" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -112,7 +112,7 @@
 			//]]>
 			</script>
 			<div class="btmContent">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
+				<img src="http://oi59.tinypic.com/2czl2g.jpg" alt="" class="img-responsive">
 				<form method="post" action="http://localhost/wordpress/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
 					
 					<strong class="news">newsletter</strong>

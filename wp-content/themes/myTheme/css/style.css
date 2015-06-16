@@ -2,6 +2,10 @@ body {
   text-align: justify;
   font-family: OpenSans; }
 
+img.nelioefi {
+  min-width: 100px;
+  min-height: 100px; }
+
 /* Header */
 .header h2 {
   font-family: Arial;
@@ -329,7 +333,10 @@ hr {
   .mainContent-cfb .col-md-8 a {
     color: #88232e; }
   .mainContent-cfb .col-md-8 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 0.5; }
   .mainContent-cfb .col-md-8 img:hover {
     opacity: 1; }
