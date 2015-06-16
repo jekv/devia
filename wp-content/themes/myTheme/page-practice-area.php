@@ -3,7 +3,7 @@
  <div class="container mainContent-practice">
  	<div class="row">
  		<div class="col-md-8">
- 			<h5>You are here. <a href="http://localhost/wordpress/">Home</a> <i class="fa fa-angle-double-right"></i> Practice Area</h5>
+ 			<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Practice Area</h5>
  			<hr class = "fhr">
  			<?php if (have_posts()) :
 			while (have_posts()) : the_post(); ?>
@@ -62,10 +62,10 @@
  <div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
 				</ul>		
 			</div>
 	

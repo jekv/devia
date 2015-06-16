@@ -6,7 +6,7 @@
 			<?php if ( have_posts() ) :
 		 while ( have_posts() ) : $i++;  the_post(); ?>
 			<div class = "col-md-8">
-				<p>You are here. <a href="http://localhost/wordpress/">Home</a> <i class="fa fa-angle-double-right"></i> Useful Tax Time Resources</p>
+				<p>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Useful Tax Time Resources</p>
  					<hr class = "fhr">
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
@@ -41,7 +41,7 @@
 					</div>
 					<!-- end -->
 					</div>
-					<img src="http://localhost/wordpress/wp-content/uploads/2015/05/calluson-img.gif" alt="" class="img-responsive cuo">
+					<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/calluson-img.gif" alt="" class="img-responsive cuo">
 				</div>
 	 </div>
 	 
@@ -49,10 +49,10 @@
 		<div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="http://oi61.tinypic.com/2dtkyr.jpg" alt="" class="img-responsive"></li>
-					<li><img src="http://oi58.tinypic.com/2usexr8.jpg" alt="" class="img-responsive"></li>
-					<li><img src="http://oi59.tinypic.com/vqqruf.jpg" alt="" class="img-responsive"></li>
-					<li><img src="http://oi62.tinypic.com/1608vac.jpg" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
 				</ul>		
 			</div>
 	</div>

@@ -30,7 +30,7 @@
 			</div>
 			
 		</div>
-	<img src="http://localhost/wordpress/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
+	<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
 
 		<div class="container content">
 			<div class="topContent">
@@ -42,7 +42,7 @@
 						<a href="about.html">View More</a>
 					</div>
 					<div class="col-md-6">
-						<img src="http://localhost/wordpress/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
+						<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
 					</div>
 				</div>
 			</div>
@@ -86,14 +86,14 @@
  	
  	<div class="partners">
 				<h2>OUR PARTNERSHIP</h2><br>
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive">
 			</div>
 
 			<div class="btmContent">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
 				<strong class="news">newsletter</strong>
 				<p>Sign up to get <strong>EXCLUSIVE</strong> offers & to be well up in the news.</p>
 				<input type="text" placeholder = "Subscribe Now"><button type="button" class="btn"><i class="fa fa-paper-plane"></i></button>

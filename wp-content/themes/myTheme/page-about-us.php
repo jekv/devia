@@ -8,7 +8,7 @@ get_header();
 			
 			<div class="row">
 				<div class="col-md-8">
-					<h5>You are here. <a href="http://localhost/wordpress/">Home</a> <i class="fa fa-angle-double-right"></i> About Us</h5>
+					<h5>You are here. <a href="<?php echo get_page_link(40); ?>">Home</a> <i class="fa fa-angle-double-right"></i> About Us</h5>
  					<hr class = "fhr">
 					<h2><?php the_title() ;?></h2>
 					<?php the_post_thumbnail() ?>
@@ -43,17 +43,17 @@ get_header();
 					</div>
 					<!-- end -->
 					</div>
-					<img src="http://oi57.tinypic.com/300bt51.jpg" alt="" class="img-responsive cuo">
+					<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/calluson-img.gif" alt="" class="img-responsive cuo">
 				</div>
 	 </div> 
 	</div>
 	<div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
 				</ul>		
 			</div>
 

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container mainContent-contact">
 		<div class="row">
-			<p class = "x">You are here. <a href="http://localhost/wordpress/">Home</a> <i class="fa fa-angle-double-right"></i> Contact Us</p>
+			<p class = "x">You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Contact Us</p>
  			<hr class = "fhr">
 			<?php if ( have_posts() ) :
 		 while ( have_posts() ) : $i++;  the_post(); ?>
@@ -25,7 +25,7 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3155.1622777905204!2d144.944719!3d-37.739337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65b449d9baa19%3A0xff7c593b1480f33f!2s425+Bell+St%2C+Pascoe+Vale+South+VIC+3044%2C+Australia!5e0!3m2!1sen!2sph!4v1432532528901" width="560" height="580" frameborder="0" style="border:0"></iframe>
 
 					<div class="contact-info wrapper">
-						<img src="http://localhost/wordpress/wp-content/uploads/2015/05/contact-info-bg.gif" alt="">
+						<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/contact-info-bg.gif" alt="">
 							<h2><strong>Call us on (61-3) 9350-6611</strong></h2>
 							<div class="indent">
 								
@@ -52,10 +52,10 @@
 			<div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="http://localhost/wordpress/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
+					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
 				</ul>		
 			</div>
 
