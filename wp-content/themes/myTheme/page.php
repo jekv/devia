@@ -129,8 +129,8 @@
 </div>
 
 <div class="container footer-about">
-			<p>DD Accounting Services•- Devia Corporation Pty Ltd T/AS •</p>
 		</div>
+		<?php get_footer(); ?>
 	</div>
 </body>
 </html>

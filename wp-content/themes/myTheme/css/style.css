@@ -39,8 +39,7 @@ img.nelioefi {
     text-decoration: underline;
     background-color: transparent; }
   .navbar-default .nav li a {
-    padding: 15px;
-    margin-left: 94px; }
+    margin-left: 118px; }
 
 .navbar-brand {
   display: none; }
@@ -233,7 +232,8 @@ img.nelioefi {
   .mainContent-about .col-md-8 a {
     color: #88232e; }
   .mainContent-about .col-md-8 img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .mainContent-about .col-md-8 .firstp {
     margin-top: 10%; }
 .mainContent-about .col-md-4 {
@@ -776,6 +776,12 @@ hr {
   h2 strong {
     display: none; }
 
+  .midCOntent p {
+    text-align: center; }
+
+  .navbar-fixed-top .navbar-collapse {
+    max-height: none; }
+
   .navbar-default {
     position: relative; }
 
@@ -791,13 +797,15 @@ hr {
   .content .topContent {
     margin-top: 10%; }
     .content .topContent .col-md-6 img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
   .content .btmContent {
     display: none; }
   .content .midContent .col-md-4 img {
     display: block;
     margin: 0 auto 0 auto;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .content .partners img {
     display: block;
     margin: 0 auto 0 auto; }
@@ -853,13 +861,21 @@ hr {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-default {
     position: relative; }
+    .navbar-default .nav li a {
+      margin-left: 0;
+      padding-left: 0; }
 
   .navbar-brand {
     display: none; }
 
-  .navbar-nav li {
-    float: none;
-    margin-left: 170px; }
+  .navbar-nav {
+    margin-left: 2%; }
+    .navbar-nav li {
+      margin-left: 0; }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    margin-left: 7%; }
 
   .yoyo {
     display: none; }
@@ -876,8 +892,7 @@ hr {
   .content .midContent .col-md-4 p {
     text-align: center; }
   .content .btmContent img {
-    width: 200%;
-    margin-left: -2%; }
+    margin-left: -11.5%; }
   .content .btmContent p {
     font-size: 200%; }
   .content .btmContent .news {
@@ -971,14 +986,27 @@ hr {
     .mainContent-contact .col-md-6 .contact-info {
       display: block;
       margin-left: auto;
-      margin-right: auto; } }
+      margin-right: auto; }
+      .mainContent-contact .col-md-6 .contact-info img {
+        margin-left: 10.8%; } }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .yoyo {
+    margin-top: -2%; }
+
+  .col-md-4 img {
+    box-shadow: 2px 3px #d3d3d3;
+    -webkit-box-shadow: 10px #d3d3d3;
+    margin-top: 10%;
+    width: 100%; }
+
   .navbar-default {
     position: relative; }
     .navbar-default .navbar-nav li {
       float: none;
       display: inline-block;
-      margin-left: -5%; }
+      margin-left: 0; }
+      .navbar-default .navbar-nav li a {
+        margin-left: 13px; }
 
   .btmContent img {
     margin-left: -1.8%; }
