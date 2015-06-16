@@ -55,7 +55,7 @@ img.nelioefi {
 	.nav{
 		li{
 			a{
-				margin-left: 118px;
+				margin-left: 107px;
 			}
 		}
 	}	
@@ -933,6 +933,10 @@ hr{
 	.header{
 		display:none;
 	}
+	.navbar-default .nav li a {
+  		margin-left: 0;
+  		text-align: left;
+	}
 	.navbar-default{
 		position:relative;
 	}
@@ -1032,7 +1036,14 @@ hr{
 		strong{
 			display: none;
 		}
+	}.navbar-nav li {
+  		margin-left: -0.4%;
 	}
+	.navbar-default .nav li a {
+  margin-left: 0;
+  text-align: left;
+}
+
 	.midCOntent{
 		p{
 			text-align: center;
@@ -1171,7 +1182,7 @@ hr{
 			display: none;
 		}
 	.navbar-nav{
-		margin-left: 2%;
+		margin-left: -8%;
 		li{
 			margin-left: 0;
 		}
@@ -1401,6 +1412,13 @@ hr{
 		margin-top: 8%;
 	}
 }
+
+@media screen and (min-width: 1003) and (max-width:1195){
+	.navbar-nav{
+		margin-left: 3%;
+	}
+}
+
 @media screen and (min-width:1200px) and (max-width:1340px){
 	.quote {
   position: absolute;
@@ -1411,6 +1429,7 @@ hr{
   h2{
   		    font-size: 202%;
   	}
+  	
   .col-md-10{
   	p{
   		  font-size: 91%;
@@ -1424,12 +1443,15 @@ hr{
 	.navbar-default{
 		position:relative;
 		.navbar-nav{
+			margin-left:5%;
 			li{
-				float:none;
-				display:inline-block;
-				margin-left: -3.5%;
+				float: left;
+				margin-left: 25px;
 			}
 		}
+	}
+	.navbar-default .nav li a {
+  		margin-left: 0;
 	}
 	.btmContent{
 		img{
@@ -1478,6 +1500,10 @@ hr{
 @media screen and (min-width:1341px) and (max-width:1620px){
 	.navbar-default{
 		margin-top: 6%;
+	}
+
+	.navbar-default .nav li a {
+ 		 margin-left: 64px;
 	}
 	.quote {
   position: absolute;
