@@ -1020,7 +1020,7 @@ hr {
         margin-left: 13px; }
 
   .btmContent img {
-    margin-left: -1.8%; }
+    margin-left: -6.8%; }
   .btmContent p {
     margin-top: 12%; }
 
@@ -1080,7 +1080,7 @@ hr {
 
   .mainContent-partners {
     padding-top: .85%; } }
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1470px) {
   /* HOME!!! */
   .header h2 {
     text-align: justify; }
@@ -1092,9 +1092,19 @@ hr {
     opacity: 1;
     width: 100%; }
     .content .btmContent img {
-      width: 100%; }
+      max-width: 200%;
+      width: 110.8%; }
+    .content .btmContent .btmContent img {
+      position: absolute;
+      width: 102%;
+      margin-left: -10.86%; }
 
   /*END*/ }
+@media screen and (max-width: 1650px) {
+  .btmContent img {
+    position: absolute;
+    width: 100%;
+    margin-left: -14.86%; } }
 @media screen and (min-width: 1341px) and (max-width: 1620px) {
   .navbar-default {
     margin-top: 6%; }
