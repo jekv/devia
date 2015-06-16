@@ -29,7 +29,7 @@
 			</div>
 			
 		</div>
-		<img src="http://localhost/wordpress/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
+		<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
 
 		<div class="container content">
 			<div class="topContent">
@@ -38,12 +38,12 @@
 						<h1>About Us</h1>
 						<p>DD Accounting Services provide Public Accountants and Registered Tax Agents.</p>
 						<p>DD Accounting Services is committed to fulfilling client satisfaction to the extent that our service is appreciated and referrals encouraged.</p>
-						<a href="http://localhost/wordpress/about-us/">View More</a>
+						<a href="<?php echo site_url()?>/about-us/">View More</a>
 					</div>
 					<div class="col-md-6">
-						<img src="http://localhost/wordpress/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
 					</div>
-				</div>
+				</div> 
 			</div>
 
 			<div class = "midContent">
@@ -79,10 +79,10 @@
 			
 			<div class="partners">
 				<h2>OUR PARTNERSHIP</h2><br>
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive">
 			</div>
 
 			<!-- Newsletter -->
@@ -112,8 +112,8 @@
 			//]]>
 			</script>
 			<div class="btmContent">
-				<img src="http://localhost/wordpress/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
-				<form method="post" action="http://localhost/wordpress/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
+				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
+				<form method="post" action="<?php echo site_url()?>/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
 					
 					<strong class="news">newsletter</strong>
 					<p>Sign up to get <strong>EXCLUSIVE</strong> offers & to be well up in the news.</p>
