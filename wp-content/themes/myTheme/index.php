@@ -1,3 +1,4 @@
+<?php print _wp_relative_upload_path( 'wp-content/uploads/2015/05/part1-img.gif' );exit; ?>
 <?php get_header(); ?>
 
 	<div class="container quote">
