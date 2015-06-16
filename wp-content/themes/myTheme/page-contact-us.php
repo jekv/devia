@@ -17,7 +17,7 @@
 				</div>
 
 	<?php endwhile;
-
+ 
 		else :
 		echo '<p> No content found </p>';
 	  endif; ?>

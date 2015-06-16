@@ -70,7 +70,7 @@
 			<div class="col-md-4">
 				<div class="reg">
 						<h3>Free Initial Consultation</h3>
-						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?>
+						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?> 
 					<!-- oops -->
 					<div id="underconstruction" class="modal fade" role="dialog">
 						<div class="modal-dialog">

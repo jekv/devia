@@ -28,7 +28,7 @@ get_header();
 					<div id="underconstruction" class="modal fade" role="dialog">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<div class="modal-header">
+								<div class="modal-header"> 
 									
 									<h4 class="modal-title">Ooooops!</h4>
 								</div>

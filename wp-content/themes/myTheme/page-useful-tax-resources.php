@@ -11,7 +11,7 @@
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
 					<p><?php the_content();?></p>
-				</div>
+				</div> 
 
 	<?php endwhile;
 

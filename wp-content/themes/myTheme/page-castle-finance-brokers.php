@@ -30,7 +30,7 @@ get_header();
 				);
 
 
-				the_post_thumbnail( $size, $attr ); ?> 
+				the_post_thumbnail( $size, $attr ); ?>  
 			</div>
 			<div class="col-md-6">
 				<h2><?php the_title(); ?></h2>

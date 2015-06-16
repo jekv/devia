@@ -5,7 +5,7 @@
  		<div class="col-md-8">
  			<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Practice Area</h5>
  			<hr class = "fhr">
- 			<?php if (have_posts()) :
+ 			<?php if (have_posts()) : 
 			while (have_posts()) : the_post(); ?>
  			<?php the_title(); ?>
  			<h4>Individual Tax Return</h4>

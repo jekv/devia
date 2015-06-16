@@ -19,7 +19,7 @@
 								</div>
 								<div class="modal-body">
 									<p>Site underconstruction. Try again later.</p>
-								</div>
+								</div> 
 								<div class="modal-footer">
 									<button class="btn btn-error" data-dismiss="modal">Close</button>
 								</div>
