@@ -88,38 +88,41 @@
 			<!-- Newsletter -->
 
 			<script type="text/javascript">
-			//<![CDATA[
-			if (typeof newsletter_check !== "function") {
-			window.newsletter_check = function (f) {
-			    var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
-			    if (!re.test(f.elements["ne"].value)) {
-			        alert("The email is not correct");
-			        return false;
-			    }
-			    for (var i=1; i<20; i++) {
-			    if (f.elements["np" + i] && f.elements["np" + i].value == "") {
-			        alert("");
-			        return false;
-			    }
-			    }
-			    if (f.elements["ny"] && !f.elements["ny"].checked) {
-			        alert("You must accept the privacy statement");
-			        return false;
-			    }
-			    return true;
-			}
-			}
-			//]]>
-			</script>
+//<![CDATA[
+if (typeof newsletter_check !== "function") {
+window.newsletter_check = function (f) {
+    var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
+    if (!re.test(f.elements["ne"].value)) {
+        alert("The email is not correct");
+        return false;
+    }
+    for (var i=1; i<20; i++) {
+    if (f.elements["np" + i] && f.elements["np" + i].value == "") {
+        alert("");
+        return false;
+    }
+    }
+    if (f.elements["ny"] && !f.elements["ny"].checked) {
+        alert("You must accept the privacy statement");
+        return false;
+    }
+    return true;
+}
+}
+//]]>
+</script>
+
 			<div class="btmContent">
 				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
 				<form method="post" action="<?php echo site_url()?>/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
 					
 					<strong class="news">newsletter</strong>
 					<p>Sign up to get <strong>EXCLUSIVE</strong> offers & to be well up in the news.</p>
-					<input type="text" placeholder = "Subscribe Now" required><button type="button" class="btn"><i class="fa fa-paper-plane"></i></button>
+					<input class="newsletter-email" type="email" name="ne" required placeholder = "Subscribe Now"></td><button type="submit" class="newsletter-submit btn"><i class="fa fa-paper-plane"></i></button>
+
 				</form>
 			</div>
+
 
 		<div class="contactU">
 			<h2>Contact US</h2>
