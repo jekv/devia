@@ -8,7 +8,7 @@
 	<?php  if (have_posts()) :
 		while (have_posts()) : the_post();?>
 
-			<h2><a href="<?php the_permalink(); ?>"><br><br><br><br><br><br><?php the_title(); ?></a></h2>
+			<h2><a href="<?php the_permalink(); ?>"><br><br><?php the_title(); ?></a></h2>
 		<?php echo (substr(strip_tags(get_the_content()),0,300));  ?> <br> <a href="<?php the_permalink(); ?>"> [Read more].</a><br><br><br>
 
 		<?php endwhile;
