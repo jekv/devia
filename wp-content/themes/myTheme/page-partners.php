@@ -4,7 +4,7 @@
 
 	<div class="container mainContent-partners">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-8 out8">
 				<h5>You are here. <a href="index.html">Home</a> <i class="fa fa-angle-double-right"></i> Practice Area</h5>
  				<hr class = "fhr">
 				<h2><?php the_title(); ?></h2>
@@ -67,7 +67,7 @@
 					</div>
 			<?php endwhile; endif; ?>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 out4">
 				<div class="reg">
 						<h3>Free Initial Consultation</h3>
 						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?> 
