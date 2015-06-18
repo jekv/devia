@@ -13,7 +13,7 @@
 							<h4>Stonegate Wealth Solutions (Aust) Pty Ltd</h4>
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/06/a.gif" alt="" class="img-responsive">
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 in4">
 							<div class="webXcontact">
 								<h5>Website:</h5>
 							<a href="http://www.stonegate.com.au">http://www.stonegate.com.au/</a>
@@ -28,7 +28,7 @@
 							<h4>Bent & Cougle Pty Ltd — Insolvency Administrators</h4>
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/b.gif" alt="" class="img-responsive">
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
 							<a href="http://www.bentcougle.com.au">http://www.bentcougle.com.au/</a>
@@ -43,7 +43,7 @@
 							<h4>Madgwicks Lawyers</h4>
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/c.gif" alt="" class="img-responsive">
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
 							<a href="http://www.madgwicks.com.au">http://www.madgwicks.com.au/</a>
@@ -58,7 +58,7 @@
 							<h4>A C Construction Pty Ltd</h4>
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/d.gif" alt="" class="img-responsive">
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
 							<a href="http://www.acconstructions.com.au">http://www.acconstructions.com.au/</a>
@@ -67,7 +67,7 @@
 					</div>
 			<?php endwhile; endif; ?>
 			</div>
-			<div class="col-md-4 out4">
+			<div class="col-md-4 in4 out4">
 				<div class="reg">
 						<h3>Free Initial Consultation</h3>
 						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?> 
