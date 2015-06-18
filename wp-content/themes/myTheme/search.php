@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 		<div class="container content">
-			<h3>Results for: <u><?php the_search_query(); ?></u></h3>
+			<h3>Results for: <?php the_search_query(); ?></h3>
 			
 	<?php  if (have_posts()) :
 		while (have_posts()) : the_post();?>
@@ -20,6 +20,4 @@
 	endif; ?>
 </div>
 
-<div class="container footer-about">
-			<p>DD Accounting Services•- Devia Corporation Pty Ltd T/AS •</p>
-		</div>
+<?php get_footer(); ?>

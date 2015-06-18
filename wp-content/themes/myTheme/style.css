@@ -212,19 +212,10 @@ img.nelioefi {
 .footer {
   background-color: #984e54;
   width: 100%; }
-  .footer .foot-list li {
-    margin-top: 1%;
-    margin-left: 18.4%;
-    list-style: none;
-    display: inline-block; }
-  .footer .foot-list .foot-login {
-    float: right;
-    margin-right: 18.4%; }
-    .footer .foot-list .foot-login a {
-      text-decoration: underline;
-      color: #FFF; }
   .footer p {
-    color: #fff; }
+    margin-top: 1%;
+    color: #fff;
+    text-align: center; }
 
 /* ABOUT: Content */
 .mainContent-about .col-md-8 {

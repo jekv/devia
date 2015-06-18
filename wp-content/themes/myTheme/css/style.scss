@@ -274,24 +274,11 @@ img.nelioefi {
 .footer{
 	background-color:#984e54;
 	width:100%;
-	.foot-list{
-		li{
-			margin-top: 1%;
-			margin-left: 18.4%;
-			list-style: none;
-			display: inline-block;
-		}
-		.foot-login{
-				float: right;
-				margin-right: 18.4%;
-				a{
-					text-decoration: underline;
-					color:#FFF;
-				}
-			}
-	}
+
 	p{
+		margin-top: 1%;
 		color: #fff;
+		text-align: center;
 	}
 }
 
