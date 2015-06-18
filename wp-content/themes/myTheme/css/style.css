@@ -406,56 +406,56 @@ hr {
     margin-top: 10%; }
 
 /*partners*/
-.mainContent-partners .col-md-8 {
+.mainContent-partners .out8 {
   margin-top: 5%; }
-  .mainContent-partners .col-md-8 a {
+  .mainContent-partners .out8 a {
     color: #88232e; }
-  .mainContent-partners .col-md-8 .firstp {
+  .mainContent-partners .out8 .firstp {
     margin-bottom: 7%; }
-  .mainContent-partners .col-md-8 .fhr {
+  .mainContent-partners .out8 .fhr {
     font-weight: bold;
     border-color: #88232e; }
-  .mainContent-partners .col-md-8 hr {
+  .mainContent-partners .out8 hr {
     border-color: #d3d3d3; }
-  .mainContent-partners .col-md-8 .col-md-6 {
+  .mainContent-partners .out8 .col-md-4 {
     /*CFB*/
     /*Partners*/ }
-    .mainContent-partners .col-md-8 .col-md-6 a {
+    .mainContent-partners .out8 .col-md-4 a {
       text-decoration: underline; }
-    .mainContent-partners .col-md-8 .col-md-6 h2 {
+    .mainContent-partners .out8 .col-md-4 h2 {
       vertical-align: middle;
       font-family: arial;
       color: #88232e;
       margin-top: 25%; }
-    .mainContent-partners .col-md-8 .col-md-6 h5, .mainContent-partners .col-md-8 .col-md-6 a, .mainContent-partners .col-md-8 .col-md-6 .partnersCP {
+    .mainContent-partners .out8 .col-md-4 h5, .mainContent-partners .out8 .col-md-4 a, .mainContent-partners .out8 .col-md-4 .partnersCP {
       text-align: center;
       display: block;
       font-size: 130%; }
-    .mainContent-partners .col-md-8 .col-md-6 .webXcontact {
+    .mainContent-partners .out8 .col-md-4 .webXcontact {
       margin-top: 25%; }
-    .mainContent-partners .col-md-8 .col-md-6 .partnersCP, .mainContent-partners .col-md-8 .col-md-6 a {
+    .mainContent-partners .out8 .col-md-4 .partnersCP, .mainContent-partners .out8 .col-md-4 a {
       color: #6c030b;
       font-family: Arial; }
-    .mainContent-partners .col-md-8 .col-md-6 a {
+    .mainContent-partners .out8 .col-md-4 a {
       text-decoration: underline; }
 
-.col-md-4 {
+.out4 {
   margin-top: 7%; }
-  .col-md-4 .reg {
+  .out4 .reg {
     background-color: #f5f5f5;
     box-shadow: 2px 3px #d3d3d3;
     -webkit-box-shadow: 2px #d3d3d3; }
-    .col-md-4 .reg h3, .col-md-4 .reg h4, .col-md-4 .reg input {
+    .out4 .reg h3, .out4 .reg h4, .out4 .reg input {
       margin: 2% 5% 2% 5%;
       border: none; }
-    .col-md-4 .reg input {
+    .out4 .reg input {
       height: 44px;
       width: 90%;
       font-size: 108%;
       padding-left: 2%;
       box-shadow: 2px 3px #d3d3d3;
       -webkit-box-shadow: 2px #d3d3d3; }
-    .col-md-4 .reg .wpcf7-submit {
+    .out4 .reg .wpcf7-submit {
       width: 50%;
       border-radius: 5px;
       background-color: #892330;
@@ -466,20 +466,20 @@ hr {
       margin-right: 30%;
       margin-top: 20%;
       margin-bottom: 5%; }
-    .col-md-4 .reg .wpcf7-submit:hover {
+    .out4 .reg .wpcf7-submit:hover {
       background-color: transparent;
       color: #6c030b;
       border: 1px solid #6c030b;
       border-color: #6c030b; }
-  .col-md-4 h3 {
+  .out4 h3 {
     font-family: arial;
     color: #88232e;
     text-align: center;
     font-weight: 700;
     padding-top: 5%; }
-  .col-md-4 .cuo {
+  .out4 .cuo {
     margin-top: 5%; }
-  .col-md-4 img {
+  .out4 img {
     box-shadow: 2px 3px #d3d3d3;
     -webkit-box-shadow: 10px #d3d3d3;
     margin-top: 10%; }
