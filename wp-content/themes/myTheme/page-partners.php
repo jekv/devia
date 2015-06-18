@@ -90,7 +90,7 @@
 					</div>
 					<!-- end -->
 					</div>
-					<img src="http://oi57.tinypic.com/300bt51.jpg" alt="" class="img-responsive cuo">
+					<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/calluson-img.gif" alt="" class="img-responsive cuo">
 			</div>
 		</div>
 	</div>
