@@ -8,7 +8,7 @@
 			<div class = "col-md-8">
 				<p>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Useful Tax Time Resources</p>
  					<hr class = "fhr">
-					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
+					<?php the_post_thumbnail(); ?>
 					<h2><?php the_title(); ?></h2>
 					<p><?php the_content();?></p>
 				</div> 

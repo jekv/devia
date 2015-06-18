@@ -21,7 +21,7 @@ img.nelioefi {
 
 /* Navigation Bar */
 .navbar-default {
-  margin-top: 5%;
+  margin-top: 4%;
   border-radius: 0;
   position: absolute;
   background: rgba(136, 35, 46, 0.8);
@@ -39,7 +39,7 @@ img.nelioefi {
     text-decoration: underline;
     background-color: transparent; }
   .navbar-default .nav li a {
-    margin-left: 107px; }
+    padding-left: 53px; }
 
 .navbar-brand {
   display: none; }
