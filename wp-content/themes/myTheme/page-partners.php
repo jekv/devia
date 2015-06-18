@@ -16,7 +16,7 @@
 						<div class="col-md-4 in4">
 							<div class="webXcontact">
 								<h5>Website:</h5>
-							<a href="http://www.stonegate.com.au">http://www.stonegate.com.au/</a>
+							<a href="http://www.stonegate.com.au" target="newTab">http://www.stonegate.com.au/</a>
 							<h5>Contact:</h5>
 							<p class = "partnersCP">Huss Saraya / Abdul Taha</p>
 							</div>
@@ -31,7 +31,7 @@
 						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
-							<a href="http://www.bentcougle.com.au">http://www.bentcougle.com.au/</a>
+							<a href="http://www.bentcougle.com.au" target="newTab">http://www.bentcougle.com.au/</a>
 							<h5>Contact:</h5>
 							<p class = "partnersCP">Mr. Terry Finn</p>
 							</div>
@@ -46,7 +46,7 @@
 						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
-							<a href="http://www.madgwicks.com.au">http://www.madgwicks.com.au/</a>
+							<a href="http://www.madgwicks.com.au" target="newTab">http://www.madgwicks.com.au/</a>
 							<h5>Contact:</h5>
 							<p class = "partnersCP">Mr. Angelo Conti</p>
 							</div>
@@ -61,7 +61,7 @@
 						<div class="col-md-4 in4">
 							<div class="webXcontact">
 							<h5>Website:</h5>
-							<a href="http://www.acconstructions.com.au">http://www.acconstructions.com.au/</a>
+							<a href="http://www.acconstructions.com.au" target="newTab">http://www.acconstructions.com.au/</a>
 							</div>
 						</div>
 					</div>
