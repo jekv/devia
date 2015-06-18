@@ -417,26 +417,26 @@ hr {
     border-color: #88232e; }
   .mainContent-partners .out8 hr {
     border-color: #d3d3d3; }
-  .mainContent-partners .out8 .col-md-4 {
-    /*CFB*/
+  .mainContent-partners .out8 .in4 {
+    margin-left: 3%;
     /*Partners*/ }
-    .mainContent-partners .out8 .col-md-4 a {
+    .mainContent-partners .out8 .in4 a {
       text-decoration: underline; }
-    .mainContent-partners .out8 .col-md-4 h2 {
+    .mainContent-partners .out8 .in4 h2 {
       vertical-align: middle;
       font-family: arial;
       color: #88232e;
       margin-top: 25%; }
-    .mainContent-partners .out8 .col-md-4 h5, .mainContent-partners .out8 .col-md-4 a, .mainContent-partners .out8 .col-md-4 .partnersCP {
+    .mainContent-partners .out8 .in4 h5, .mainContent-partners .out8 .in4 a, .mainContent-partners .out8 .in4 .partnersCP {
       text-align: center;
       display: block;
       font-size: 130%; }
-    .mainContent-partners .out8 .col-md-4 .webXcontact {
+    .mainContent-partners .out8 .in4 .webXcontact {
       margin-top: 25%; }
-    .mainContent-partners .out8 .col-md-4 .partnersCP, .mainContent-partners .out8 .col-md-4 a {
+    .mainContent-partners .out8 .in4 .partnersCP, .mainContent-partners .out8 .in4 a {
       color: #6c030b;
       font-family: Arial; }
-    .mainContent-partners .out8 .col-md-4 a {
+    .mainContent-partners .out8 .in4 a {
       text-decoration: underline; }
 
 .out4 {
