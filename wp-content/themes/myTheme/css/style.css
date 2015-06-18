@@ -418,7 +418,7 @@ hr {
   .mainContent-partners .out8 hr {
     border-color: #d3d3d3; }
   .mainContent-partners .out8 .in4 {
-    margin-left: 3%;
+    margin-left: -3%;
     /*Partners*/ }
     .mainContent-partners .out8 .in4 a {
       text-decoration: underline; }
