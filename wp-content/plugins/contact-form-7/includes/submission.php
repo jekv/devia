@@ -139,7 +139,7 @@ class WPCF7_Submission {
 				? $_POST['_wpcf7_unit_tag'] : '' );
 
 		$contact_form = $this->contact_form;
-print_r('<pre>');print_r($contact_form);exit;
+
 		if ( ! $this->validate() ) { // Validation error occured
 			$this->status = 'validation_failed';
 			$this->response = $contact_form->message( 'validation_error' );
@@ -164,7 +164,7 @@ print_r('<pre>');print_r($contact_form);exit;
 
 			do_action( 'wpcf7_mail_failed', $contact_form );
 		}
-
+print_r('<pre>');print_r($contact_form);exit;
 		$this->remove_uploaded_files();
 
 		return $this->status;
