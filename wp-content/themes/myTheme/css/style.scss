@@ -1172,7 +1172,7 @@ hr{
 	.navbar-nav{
 		margin-left: -8%;
 		li{
-			margin-left: 0;
+			margin-left: -3px;
 		}
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -1362,6 +1362,9 @@ hr{
   margin-top: 10%;
   width: 100%;
 }
+.navbar-default .nav li a {
+  padding-left: 0;
+}
 	.navbar-default{
 		position:relative;
 		.navbar-nav{
@@ -1408,6 +1411,9 @@ hr{
 }
 
 @media screen and (min-width:1200px) and (max-width:1340px){
+	.yoyo{
+		margin-top: -1.6%;
+	}
 	.quote {
   position: absolute;
   width: 18%;
@@ -1434,7 +1440,7 @@ hr{
 			margin-left:5%;
 			li{
 				float: left;
-				margin-left: 25px;
+				margin-left: -8px;
 			}
 		}
 	}
@@ -1502,12 +1508,17 @@ hr{
 }
 @media screen and (min-width:1341px) and (max-width:1620px){
 	.navbar-default{
-		margin-top: 6%;
+		margin-top: 4%;
+	.nav{
+			li{
+				a{
+					margin-left: 0;
+				}
+			}
+		}
 	}
 
-	.navbar-default .nav li a {
- 		 margin-left: 64px;
-	}
+
 	.quote {
   position: absolute;
   width: 18%;

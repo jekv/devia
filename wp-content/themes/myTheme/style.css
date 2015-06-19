@@ -874,7 +874,7 @@ hr {
   .navbar-nav {
     margin-left: -8%; }
     .navbar-nav li {
-      margin-left: 0; }
+      margin-left: -3px; }
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
@@ -1002,6 +1002,9 @@ hr {
     margin-top: 10%;
     width: 100%; }
 
+  .navbar-default .nav li a {
+    padding-left: 0; }
+
   .navbar-default {
     position: relative; }
     .navbar-default .navbar-nav li {
@@ -1035,6 +1038,9 @@ hr {
   .navbar-nav {
     margin-left: 3%; } }
 @media screen and (min-width: 1200px) and (max-width: 1340px) {
+  .yoyo {
+    margin-top: -1.6%; }
+
   .quote {
     position: absolute;
     width: 18%;
@@ -1054,7 +1060,7 @@ hr {
       margin-left: 5%; }
       .navbar-default .navbar-nav li {
         float: left;
-        margin-left: 25px; }
+        margin-left: -8px; }
 
   .navbar-default .nav li a {
     margin-left: 0; }
@@ -1099,10 +1105,9 @@ hr {
     margin-left: -14.86%; } }
 @media screen and (min-width: 1341px) and (max-width: 1620px) {
   .navbar-default {
-    margin-top: 6%; }
-
-  .navbar-default .nav li a {
-    margin-left: 64px; }
+    margin-top: 4%; }
+    .navbar-default .nav li a {
+      margin-left: 0; }
 
   .quote {
     position: absolute;
