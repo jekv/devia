@@ -183,7 +183,6 @@ print_r('<pre>');print_r(6);exit;
 
 		require_once WPCF7_PLUGIN_DIR . '/includes/validation.php';
 		$result = new WPCF7_Validation();
-print_r('<pre>');print_r(1);exit;
 
 		$tags = $this->contact_form->form_scan_shortcode();
 
@@ -196,6 +195,7 @@ print_r('<pre>');print_r(1);exit;
 
 		$this->invalid_fields = $result->get_invalid_fields();
 
+print_r('<pre>');print_r(0);exit;
 		return $result->is_valid();
 	}
 
