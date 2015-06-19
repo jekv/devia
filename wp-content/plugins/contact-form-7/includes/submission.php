@@ -245,7 +245,7 @@ class WPCF7_Submission {
 		}
 
 		$result = WPCF7_Mail::send( $contact_form->prop( 'mail' ), 'mail' );
-print 4;exit;
+
 		if ( $result ) {
 			$additional_mail = array();
 
