@@ -161,7 +161,7 @@ print 2;exit;
 		} else {
 			$this->status = 'mail_failed';
 			$this->response = $contact_form->message( 'mail_sent_ng' );
-
+print 3;exit;
 			do_action( 'wpcf7_mail_failed', $contact_form );
 		}
 
