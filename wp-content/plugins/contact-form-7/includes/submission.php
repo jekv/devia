@@ -180,6 +180,7 @@ print_r('<pre>');print_r(6);exit;
 		if ( $this->invalid_fields ) {
 			return false;
 		}
+print_r('<pre>');print_r(1);exit;
 
 		require_once WPCF7_PLUGIN_DIR . '/includes/validation.php';
 		$result = new WPCF7_Validation();
