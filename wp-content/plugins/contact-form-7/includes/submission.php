@@ -236,16 +236,16 @@ class WPCF7_Submission {
 		$contact_form = $this->contact_form;
 
 		do_action( 'wpcf7_before_send_mail', $contact_form );
-print 1;exit;
+
 		$skip_mail = $this->skip_mail || ! empty( $contact_form->skip_mail );
 		$skip_mail = apply_filters( 'wpcf7_skip_mail', $skip_mail, $contact_form );
 
 		if ( $skip_mail ) {
 			return true;
 		}
-
+print 3;exit;
 		$result = WPCF7_Mail::send( $contact_form->prop( 'mail' ), 'mail' );
-
+print 4;exit;
 		if ( $result ) {
 			$additional_mail = array();
 
