@@ -141,30 +141,35 @@ class WPCF7_Submission {
 		$contact_form = $this->contact_form;
 
 		if ( ! $this->validate() ) { // Validation error occured
+print_r('<pre>');print_r(1);exit;
 			$this->status = 'validation_failed';
 			$this->response = $contact_form->message( 'validation_error' );
 
 		} elseif ( ! $this->accepted() ) { // Not accepted terms
+print_r('<pre>');print_r(2);exit;
 			$this->status = 'acceptance_missing';
 			$this->response = $contact_form->message( 'accept_terms' );
 
 		} elseif ( $this->spam() ) { // Spam!
+print_r('<pre>');print_r(3);exit;
 			$this->status = 'spam';
 			$this->response = $contact_form->message( 'spam' );
 
 		} elseif ( $this->mail() ) {
+print_r('<pre>');print_r(4);exit;
 			$this->status = 'mail_sent';
 			$this->response = $contact_form->message( 'mail_sent_ok' );
 
 			do_action( 'wpcf7_mail_sent', $contact_form );
 
 		} else {
+print_r('<pre>');print_r(5);exit;
 			$this->status = 'mail_failed';
 			$this->response = $contact_form->message( 'mail_sent_ng' );
 
 			do_action( 'wpcf7_mail_failed', $contact_form );
 		}
-print_r('<pre>');print_r($contact_form);exit;
+
 		$this->remove_uploaded_files();
 
 		return $this->status;
