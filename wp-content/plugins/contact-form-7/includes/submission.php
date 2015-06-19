@@ -195,7 +195,7 @@ print_r('<pre>');print_r(6);exit;
 
 		$this->invalid_fields = $result->get_invalid_fields();
 
-print_r('<pre>');print_r(0);exit;
+print_r('<pre>');print_r($result);exit;
 		return $result->is_valid();
 	}
 
