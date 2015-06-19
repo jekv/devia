@@ -1,0 +1,26 @@
+Menu
+	- Menu Size
+Parner Page
+	- Breadcrump is covered by menu background (cannot see)
+	- Second Item Title Spacing
+	- Free Initial Consultation "No Success Message Show"
+	- Items Website must be in new tab
+Practice Areas Pate
+	- Breadcrump is covered by menu background (cannot see)
+	- Free Initial Consultation "No Success Message Show"
+Useful Tax Time Resources
+	- Image is not showing
+	- Breadcrump is covered by menu background (cannot see)
+	- Free Initial Consultation "No Success Message Show"
+About Us Page
+	- Breadcrump is covered by menu background (cannot see)
+	- Free Initial Consultation "No Success Message Show"
+Castle Finance Brokers
+	- Breadcrump is covered by menu background (cannot see)
+	- Free Initial Consultation "No Success Message Show"
+Search Result
+	- Search Home Load and the menu "Home" is highlighted 
+		- Remove highlight in menu only in the serach result
+	- Page Title move down
+Footer
+	Remove Login Button
