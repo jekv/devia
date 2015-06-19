@@ -234,9 +234,9 @@ class WPCF7_Submission {
 
 	private function mail() {
 		$contact_form = $this->contact_form;
-print 1;exit;
-		do_action( 'wpcf7_before_send_mail', $contact_form );
 
+		do_action( 'wpcf7_before_send_mail', $contact_form );
+print 1;exit;
 		$skip_mail = $this->skip_mail || ! empty( $contact_form->skip_mail );
 		$skip_mail = apply_filters( 'wpcf7_skip_mail', $skip_mail, $contact_form );
 
