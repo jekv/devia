@@ -123,7 +123,7 @@ class WPCF7_Submission {
 		return $value;
 	}
 
-	private function submit() {print 1;exit;
+	private function submit() {
 		if ( ! $this->is( 'init' ) ) {
 			return $this->status;
 		}
@@ -139,7 +139,7 @@ class WPCF7_Submission {
 				? $_POST['_wpcf7_unit_tag'] : '' );
 
 		$contact_form = $this->contact_form;
-
+print_r('<pre>');print_r($contact_form);exit;
 		if ( ! $this->validate() ) { // Validation error occured
 			$this->status = 'validation_failed';
 			$this->response = $contact_form->message( 'validation_error' );
