@@ -243,7 +243,7 @@ class WPCF7_Submission {
 		if ( $skip_mail ) {
 			return true;
 		}
-print 3;exit;
+
 		$result = WPCF7_Mail::send( $contact_form->prop( 'mail' ), 'mail' );
 print 4;exit;
 		if ( $result ) {
