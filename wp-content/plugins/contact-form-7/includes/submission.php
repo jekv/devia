@@ -169,6 +169,7 @@ print_r('<pre>');print_r(5);exit;
 
 			do_action( 'wpcf7_mail_failed', $contact_form );
 		}
+print_r('<pre>');print_r(6);exit;
 
 		$this->remove_uploaded_files();
 
