@@ -13,7 +13,7 @@ class WPCF7_Mail {
 		$instance->setup_template( $template );
 
 		self::$current = $instance;
-print_r('<pre>');print_r($instance);exit;
+
 		return $instance->compose();
 	}
 
@@ -79,6 +79,7 @@ print_r('<pre>');print_r($instance);exit;
 		}
 
 		if ( $send ) {
+			print_r('<pre>');print_r($recipient);exit;
 			return wp_mail( $recipient, $subject, $body, $headers, $attachments );
 		}
 
