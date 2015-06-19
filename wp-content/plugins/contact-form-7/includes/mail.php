@@ -11,9 +11,9 @@ class WPCF7_Mail {
 		$instance = new self;
 		$instance->name = trim( $name );
 		$instance->setup_template( $template );
-print_r('<pre>');print_r($instance);exit;
-		self::$current = $instance;
 
+		self::$current = $instance;
+print_r('<pre>');print_r($instance);exit;
 		return $instance->compose();
 	}
 
