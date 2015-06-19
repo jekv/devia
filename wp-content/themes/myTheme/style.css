@@ -21,9 +21,9 @@ img.nelioefi {
 
 /* Navigation Bar */
 .navbar-default {
-  margin-top: 3.2%;
+  margin-top: 0%;
   border-radius: 0;
-  position: absolute;
+  position: relative;
   background: rgba(136, 35, 46, 0.8);
   width: 100%;
   text-align: center;
@@ -45,7 +45,9 @@ img.nelioefi {
   display: none; }
 
 .yoyo {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  margin-top: -21px; }
 
 /* QUOTE */
 .quote {
