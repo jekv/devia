@@ -46,7 +46,6 @@ img.nelioefi {
 
 .yoyo {
   width: 100%;
-  position: relative;
   margin-top: -21px; }
 
 /* QUOTE */
@@ -417,6 +416,12 @@ hr {
   .mainContent-partners .out8 .fhr {
     font-weight: bold;
     border-color: #88232e; }
+  .mainContent-partners .out8 .col-md-8 .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto; }
   .mainContent-partners .out8 hr {
     border-color: #d3d3d3; }
   .mainContent-partners .out8 .in4 {
