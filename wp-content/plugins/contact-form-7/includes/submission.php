@@ -139,7 +139,7 @@ class WPCF7_Submission {
 				? $_POST['_wpcf7_unit_tag'] : '' );
 
 		$contact_form = $this->contact_form;
-print_r('<pre>');print_r($this->accepted());print_r('</pre>');exit;
+print_r('<pre>');print_r($this->spam());print_r('</pre>');exit;
 
 		if ( ! $this->validate() ) { // Validation error occured
 			$this->status = 'validation_failed';
