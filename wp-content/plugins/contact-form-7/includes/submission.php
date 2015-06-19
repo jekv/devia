@@ -139,7 +139,7 @@ class WPCF7_Submission {
 				? $_POST['_wpcf7_unit_tag'] : '' );
 
 		$contact_form = $this->contact_form;
-
+print_r('<pre>[');print_r($this->mail());print_r(']</pre>');exit;
 		if ( ! $this->validate() ) { // Validation error occured
 			$this->status = 'validation_failed';
 			$this->response = $contact_form->message( 'validation_error' );
@@ -155,13 +155,13 @@ class WPCF7_Submission {
 		} elseif ( $this->mail() ) {
 			$this->status = 'mail_sent';
 			$this->response = $contact_form->message( 'mail_sent_ok' );
-print 2;exit;
+
 			do_action( 'wpcf7_mail_sent', $contact_form );
 
 		} else {
 			$this->status = 'mail_failed';
 			$this->response = $contact_form->message( 'mail_sent_ng' );
-print 3;exit;
+
 			do_action( 'wpcf7_mail_failed', $contact_form );
 		}
 
