@@ -1112,7 +1112,7 @@ hr {
     margin-left: -14.86%; } }
 @media screen and (min-width: 1341px) and (max-width: 1620px) {
   .navbar-default {
-    margin-top: 4%; }
+    margin-top: 0; }
     .navbar-default .nav li a {
       margin-left: 0; }
 
