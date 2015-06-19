@@ -1,6 +1,4 @@
 <?php
-define('WP_MEMORY_LIMIT', '128M');
-define ('WPCF7_LOAD_JS', false);
 /**
  * The base configurations of the WordPress.
  *
