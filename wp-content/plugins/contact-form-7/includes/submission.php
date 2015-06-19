@@ -123,7 +123,7 @@ class WPCF7_Submission {
 		return $value;
 	}
 
-	private function submit() {
+	private function submit() {print 1;exit;
 		if ( ! $this->is( 'init' ) ) {
 			return $this->status;
 		}
