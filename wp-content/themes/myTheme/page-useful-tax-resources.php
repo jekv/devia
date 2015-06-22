@@ -65,7 +65,7 @@
 					</div>
 					<!-- end -->
 					</div>
-					<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/calluson-img.gif" alt="" class="img-responsive cuo">
+					<img src="<?php echo site_url()?>/wp-content/uploads/2015/06/imageedit_1_8718636829.png" alt="" class="img-responsive cuo">
 				</div>
 	 </div>
 	 

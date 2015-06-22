@@ -56,7 +56,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<h4>A C Construction Pty Ltd</h4>
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/d.gif" alt="" class="img-responsive">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/06/imageedit_1_8718636829.png" alt="" class="img-responsive">
 						</div>
 						<div class="col-md-4 in4">
 							<div class="webXcontact">
