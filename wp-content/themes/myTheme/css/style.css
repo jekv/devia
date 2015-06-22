@@ -220,15 +220,13 @@ img.nelioefi {
     text-align: center; }
 
 /* ABOUT: Content */
-.mainContent-about .col-md-8 {
-  margin-top: 5%; }
-  .mainContent-about .col-md-8 a {
-    color: #88232e; }
-  .mainContent-about .col-md-8 img {
-    width: 100%;
-    height: auto; }
-  .mainContent-about .col-md-8 .firstp {
-    margin-top: 10%; }
+.mainContent-about .col-md-8 a {
+  color: #88232e; }
+.mainContent-about .col-md-8 img {
+  width: 100%;
+  height: auto; }
+.mainContent-about .col-md-8 .firstp {
+  margin-top: 10%; }
 .mainContent-about .col-md-4 {
   margin-top: 7%; }
   .mainContent-about .col-md-4 .reg {
@@ -321,46 +319,44 @@ hr {
 /* CFB: Content*/
 .mainContent-cfb .footer {
   margin-top: 0; }
-.mainContent-cfb .col-md-8 {
-  margin-top: 5%; }
-  .mainContent-cfb .col-md-8 a {
-    color: #88232e; }
-  .mainContent-cfb .col-md-8 img {
-    max-width: 100%;
+.mainContent-cfb .col-md-8 a {
+  color: #88232e; }
+.mainContent-cfb .col-md-8 img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5; }
+.mainContent-cfb .col-md-8 img:hover {
+  opacity: 1; }
+.mainContent-cfb .col-md-8 .firstp {
+  margin-bottom: 7%; }
+.mainContent-cfb .col-md-8 .fhr {
+  font-weight: bold;
+  border-color: #88232e; }
+.mainContent-cfb .col-md-8 hr {
+  border-color: #d3d3d3; }
+.mainContent-cfb .col-md-8 .col-md-6 {
+  /*CFB*/
+  /*Partners*/ }
+  .mainContent-cfb .col-md-8 .col-md-6 a {
+    text-decoration: underline; }
+  .mainContent-cfb .col-md-8 .col-md-6 h2 {
+    vertical-align: middle;
+    font-family: arial;
+    color: #88232e;
+    margin-top: 25%; }
+  .mainContent-cfb .col-md-8 .col-md-6 h5, .mainContent-cfb .col-md-8 .col-md-6 a, .mainContent-cfb .col-md-8 .col-md-6 .partnersCP {
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.5; }
-  .mainContent-cfb .col-md-8 img:hover {
-    opacity: 1; }
-  .mainContent-cfb .col-md-8 .firstp {
-    margin-bottom: 7%; }
-  .mainContent-cfb .col-md-8 .fhr {
-    font-weight: bold;
-    border-color: #88232e; }
-  .mainContent-cfb .col-md-8 hr {
-    border-color: #d3d3d3; }
-  .mainContent-cfb .col-md-8 .col-md-6 {
-    /*CFB*/
-    /*Partners*/ }
-    .mainContent-cfb .col-md-8 .col-md-6 a {
-      text-decoration: underline; }
-    .mainContent-cfb .col-md-8 .col-md-6 h2 {
-      vertical-align: middle;
-      font-family: arial;
-      color: #88232e;
-      margin-top: 25%; }
-    .mainContent-cfb .col-md-8 .col-md-6 h5, .mainContent-cfb .col-md-8 .col-md-6 a, .mainContent-cfb .col-md-8 .col-md-6 .partnersCP {
-      text-align: center;
-      display: block;
-      font-size: 130%; }
-    .mainContent-cfb .col-md-8 .col-md-6 .webXcontact {
-      margin-top: 25%; }
-    .mainContent-cfb .col-md-8 .col-md-6 .partnersCP, .mainContent-cfb .col-md-8 .col-md-6 a {
-      color: #6c030b;
-      font-family: Arial; }
-    .mainContent-cfb .col-md-8 .col-md-6 a {
-      text-decoration: underline; }
+    font-size: 130%; }
+  .mainContent-cfb .col-md-8 .col-md-6 .webXcontact {
+    margin-top: 25%; }
+  .mainContent-cfb .col-md-8 .col-md-6 .partnersCP, .mainContent-cfb .col-md-8 .col-md-6 a {
+    color: #6c030b;
+    font-family: Arial; }
+  .mainContent-cfb .col-md-8 .col-md-6 a {
+    text-decoration: underline; }
 .mainContent-cfb .col-md-4 {
   margin-top: 7%; }
   .mainContent-cfb .col-md-4 .reg {
@@ -492,43 +488,41 @@ hr {
     margin-top: 10%; }
 
 /*Practice Areas*/
-.mainContent-practice .col-md-8 {
-  margin-top: 5%; }
-  .mainContent-practice .col-md-8 a {
-    color: #88232e; }
-  .mainContent-practice .col-md-8 img {
-    width: 100%;
-    opacity: 0.5; }
-  .mainContent-practice .col-md-8 img:hover {
-    opacity: 1; }
-  .mainContent-practice .col-md-8 .firstp {
-    margin-bottom: 7%; }
-  .mainContent-practice .col-md-8 .fhr {
-    font-weight: bold;
-    border-color: #88232e; }
-  .mainContent-practice .col-md-8 hr {
-    border-color: #d3d3d3; }
-  .mainContent-practice .col-md-8 .col-md-6 {
-    /*CFB*/
-    /*Partners*/ }
-    .mainContent-practice .col-md-8 .col-md-6 a {
-      text-decoration: underline; }
-    .mainContent-practice .col-md-8 .col-md-6 h2 {
-      vertical-align: middle;
-      font-family: arial;
-      color: #88232e;
-      margin-top: 25%; }
-    .mainContent-practice .col-md-8 .col-md-6 h5, .mainContent-practice .col-md-8 .col-md-6 a, .mainContent-practice .col-md-8 .col-md-6 .partnersCP {
-      text-align: center;
-      display: block;
-      font-size: 130%; }
-    .mainContent-practice .col-md-8 .col-md-6 .webXcontact {
-      margin-top: 25%; }
-    .mainContent-practice .col-md-8 .col-md-6 .partnersCP, .mainContent-practice .col-md-8 .col-md-6 a {
-      color: #6c030b;
-      font-family: Arial; }
-    .mainContent-practice .col-md-8 .col-md-6 a {
-      text-decoration: underline; }
+.mainContent-practice .col-md-8 a {
+  color: #88232e; }
+.mainContent-practice .col-md-8 img {
+  width: 100%;
+  opacity: 0.5; }
+.mainContent-practice .col-md-8 img:hover {
+  opacity: 1; }
+.mainContent-practice .col-md-8 .firstp {
+  margin-bottom: 7%; }
+.mainContent-practice .col-md-8 .fhr {
+  font-weight: bold;
+  border-color: #88232e; }
+.mainContent-practice .col-md-8 hr {
+  border-color: #d3d3d3; }
+.mainContent-practice .col-md-8 .col-md-6 {
+  /*CFB*/
+  /*Partners*/ }
+  .mainContent-practice .col-md-8 .col-md-6 a {
+    text-decoration: underline; }
+  .mainContent-practice .col-md-8 .col-md-6 h2 {
+    vertical-align: middle;
+    font-family: arial;
+    color: #88232e;
+    margin-top: 25%; }
+  .mainContent-practice .col-md-8 .col-md-6 h5, .mainContent-practice .col-md-8 .col-md-6 a, .mainContent-practice .col-md-8 .col-md-6 .partnersCP {
+    text-align: center;
+    display: block;
+    font-size: 130%; }
+  .mainContent-practice .col-md-8 .col-md-6 .webXcontact {
+    margin-top: 25%; }
+  .mainContent-practice .col-md-8 .col-md-6 .partnersCP, .mainContent-practice .col-md-8 .col-md-6 a {
+    color: #6c030b;
+    font-family: Arial; }
+  .mainContent-practice .col-md-8 .col-md-6 a {
+    text-decoration: underline; }
 .mainContent-practice .col-md-4 {
   margin-top: 7%; }
   .mainContent-practice .col-md-4 .reg {
@@ -575,22 +569,16 @@ hr {
     margin-top: 10%; }
 
 /* Useful Tax Time Resources */
-.mainContent-uttr .col-md-8 {
-  margin-top: 5%; }
-  .mainContent-uttr .col-md-8 h5 {
-    color: #81363b;
-    font-weight: bold; }
-  .mainContent-uttr .col-md-8 .x {
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  .mainContent-uttr .col-md-8 a {
-    color: #81363b; }
-  .mainContent-uttr .col-md-8 b {
-    color: #81363b; }
-  .mainContent-uttr .col-md-8 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
+.mainContent-uttr .col-md-8 h5 {
+  color: #81363b;
+  font-weight: bold; }
+.mainContent-uttr .col-md-8 .x {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+.mainContent-uttr .col-md-8 a {
+  color: #81363b; }
+.mainContent-uttr .col-md-8 b {
+  color: #81363b; }
 .mainContent-uttr .col-md-4 {
   margin-top: 7%; }
   .mainContent-uttr .col-md-4 .reg {

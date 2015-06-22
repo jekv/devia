@@ -10,7 +10,7 @@
  					<hr class = "fhr">
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
-					<p><h4>Our Tax Links provide the most up-to-date Accounting and Financial resources for all everyone visiting our web-ste. THese resources are vluable and utilised to benefit clients’ needs.</h4>
+					<p><h4>Our Tax Links provide the most up-to-date Accounting and Financial resources for all everyone visiting our web-ste. THese resources are vluable and utilised to benefit clients’ needs.</h4><br>
 
 					<h4><strong>Insolvency &amp; Bankruptcy Advice</strong></h4>
 
@@ -73,10 +73,10 @@
 		<div class="partnerships">
 				<h2>OUR PARTNERSHIP</h2><br>
 				<ul>
-					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li>
-					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li>
+					<a href="http://www.stonegate.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li></a>
+					<a href="http://www.acconstructions.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li></a>
+					<a href="http://www.madgwicks.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/madgwicks-logo.gif" alt="" class="img-responsive"></li></a>
+					<a href="http://www.bentcougle.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/bc-logo.gif" alt="" class="img-responsive"></li></a>
 				</ul>		
 			</div>
 	</div>
