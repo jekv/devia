@@ -1073,6 +1073,12 @@ hr {
 
   .mainContent-partners {
     padding-top: .85%; } }
+@media screen and (min-width: 1341px) and (max-width: 1800px) {
+  .btmContent input {
+    margin-top: 19%; } }
+@media screen and (max-width: 1650px) {
+  .btmContent img {
+    margin-left: 17.9%; } }
 @media screen and (max-width: 1470px) {
   /* HOME!!! */
   .header h2 {
