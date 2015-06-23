@@ -332,8 +332,6 @@ hr {
   opacity: 0.5; }
 .mainContent-cfb .col-md-8 img:hover {
   opacity: 1; }
-.mainContent-cfb .col-md-8 .firstp {
-  margin-bottom: 7%; }
 .mainContent-cfb .col-md-8 .fhr {
   font-weight: bold;
   border-color: #88232e; }
@@ -406,6 +404,8 @@ hr {
     margin-top: 10%; }
 
 /*partners*/
+.mainContent-partners .out8 .last {
+  margin-bottom: 5%; }
 .mainContent-partners .out8 a {
   color: #88232e; }
 .mainContent-partners .out8 .firstp {
