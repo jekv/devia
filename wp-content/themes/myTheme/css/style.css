@@ -1009,8 +1009,10 @@ hr {
 
   .btmContent img {
     margin-left: -6.8%; }
+  .btmContent .news {
+    margin-top: 17%; }
   .btmContent p {
-    margin-top: 12%; }
+    margin-top: 3%; }
 
   /*About*/
   .mainContent-about {
