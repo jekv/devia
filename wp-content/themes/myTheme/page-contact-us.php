@@ -32,16 +32,16 @@
 								<h4 class =  "not"><strong>Dipak Devia (Director) FIPA</strong></h4>
 								<h4>Email: <strong>dipakdevia@devia.com.au</strong></h4>
 								<h4>Telephone: (03) 9350-6611</h4>
-								<h4>Fax: (03) 9350-6616</h4>
+								<h4>Fax: (03) 9350-6616</h4><br>
 								<h4 class =  "not"><strong>Mina Devia (Manager)</strong></h4>
 								<h4>Email: <strong>minadevia@devia.com.au</strong></h4>
 								<h4>Telephone: (03) 9350-6611</h4>
-								<h4>Fax: (03) 9350-6616</h4>
+								<h4>Fax: (03) 9350-6616</h4><br>
 								<h4 class =  "not"><strong>Office Location</strong></h4>
 								<h4>425 Bell Street, Pascoe Vale South (Corner of Springhall Parade) Victoria, 3044, Australia</h4>
 								<h4 class =  "not fone"><strong>Telephone: </strong>(61-3) 9350-6611</h4>
 								<h4 class =  "not"><strong>Fax: </strong>(61-3) 9350-6616</h4>
-								<p>We'd love to hear from you.</p>
+								<h4>We'd love to hear from you.</h4>
 							</div>
 							
 						</div>
@@ -50,7 +50,7 @@
 		</div>
 		
 			<div class="partnerships">
-				<h2>OUR PARTNERSHIP</h2><br>
+				<h2>OUR PARTNERS</h2><br>
 				<ul>
 					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li>
 					<li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li>
