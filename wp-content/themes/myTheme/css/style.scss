@@ -886,7 +886,7 @@ hr{
 	.indent{
 		text-align: justify;
 		position:relative;
-		margin: 0 13% 0 13%;
+		margin: -3% 13% 0 13%;
 		padding: 2% 0 2% 0;
 		h4{
 			strong{
@@ -905,8 +905,10 @@ hr{
 				padding-top: 5%;
 			}
 		}
-		h4{
+		.hear{
 			text-align: center;
+			font-size: 120%;
+  			font-weight: bold;
 		}
 		img{
 			position:absolute;

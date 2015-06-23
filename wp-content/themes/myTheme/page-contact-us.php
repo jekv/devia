@@ -41,7 +41,7 @@
 								<h4>425 Bell Street, Pascoe Vale South (Corner of Springhall Parade) Victoria, 3044, Australia</h4>
 								<h4 class =  "not fone"><strong>Telephone: </strong>(61-3) 9350-6611</h4>
 								<h4 class =  "not"><strong>Fax: </strong>(61-3) 9350-6616</h4>
-								<h4>We'd love to hear from you.</h4>
+								<h4 class = "hear">We'd love to hear from you.</h4>
 							</div>
 							
 						</div>

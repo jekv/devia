@@ -670,7 +670,7 @@ hr {
   .mainContent-contact .contact-info .indent {
     text-align: justify;
     position: relative;
-    margin: 0 13% 0 13%;
+    margin: -3% 13% 0 13%;
     padding: 2% 0 2% 0; }
     .mainContent-contact .contact-info .indent h4 strong {
       color: #dad943;
@@ -681,8 +681,10 @@ hr {
       font-weight: bold; }
     .mainContent-contact .contact-info .indent .not.fone {
       padding-top: 5%; }
-  .mainContent-contact .contact-info h4 {
-    text-align: center; }
+  .mainContent-contact .contact-info .hear {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold; }
   .mainContent-contact .contact-info img {
     position: absolute; }
 
