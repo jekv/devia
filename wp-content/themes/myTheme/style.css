@@ -406,44 +406,42 @@ hr {
     margin-top: 10%; }
 
 /*partners*/
-.mainContent-partners .out8 {
-  margin-top: 5%; }
-  .mainContent-partners .out8 a {
-    color: #88232e; }
-  .mainContent-partners .out8 .firstp {
-    margin-bottom: 7%; }
-  .mainContent-partners .out8 .fhr {
-    font-weight: bold;
-    border-color: #88232e; }
-  .mainContent-partners .out8 .col-md-8 .img-responsive {
+.mainContent-partners .out8 a {
+  color: #88232e; }
+.mainContent-partners .out8 .firstp {
+  margin-bottom: 7%; }
+.mainContent-partners .out8 .fhr {
+  font-weight: bold;
+  border-color: #88232e; }
+.mainContent-partners .out8 .col-md-8 .img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto; }
+.mainContent-partners .out8 hr {
+  border-color: #d3d3d3; }
+.mainContent-partners .out8 .in4 {
+  margin-left: -8%;
+  /*Partners*/ }
+  .mainContent-partners .out8 .in4 a {
+    text-decoration: underline; }
+  .mainContent-partners .out8 .in4 h2 {
+    vertical-align: middle;
+    font-family: arial;
+    color: #88232e;
+    margin-top: 25%; }
+  .mainContent-partners .out8 .in4 h5, .mainContent-partners .out8 .in4 a, .mainContent-partners .out8 .in4 .partnersCP {
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto; }
-  .mainContent-partners .out8 hr {
-    border-color: #d3d3d3; }
-  .mainContent-partners .out8 .in4 {
-    margin-left: -8%;
-    /*Partners*/ }
-    .mainContent-partners .out8 .in4 a {
-      text-decoration: underline; }
-    .mainContent-partners .out8 .in4 h2 {
-      vertical-align: middle;
-      font-family: arial;
-      color: #88232e;
-      margin-top: 25%; }
-    .mainContent-partners .out8 .in4 h5, .mainContent-partners .out8 .in4 a, .mainContent-partners .out8 .in4 .partnersCP {
-      text-align: center;
-      display: block;
-      font-size: 130%; }
-    .mainContent-partners .out8 .in4 .webXcontact {
-      margin-top: 25%; }
-    .mainContent-partners .out8 .in4 .partnersCP, .mainContent-partners .out8 .in4 a {
-      color: #6c030b;
-      font-family: Arial; }
-    .mainContent-partners .out8 .in4 a {
-      text-decoration: underline; }
+    font-size: 130%; }
+  .mainContent-partners .out8 .in4 .webXcontact {
+    margin-top: 25%; }
+  .mainContent-partners .out8 .in4 .partnersCP, .mainContent-partners .out8 .in4 a {
+    color: #6c030b;
+    font-family: Arial; }
+  .mainContent-partners .out8 .in4 a {
+    text-decoration: underline; }
 
 .out4 {
   margin-top: 7%; }
@@ -660,8 +658,7 @@ hr {
   color: #88232e;
   text-decoration: none; }
 .mainContent-contact .col-md-6 b {
-  color: #88232e;
-  font-weight: 200; }
+  color: #88232e; }
 .mainContent-contact .contact-info {
   color: #fff; }
   .mainContent-contact .contact-info h2 {
@@ -677,15 +674,14 @@ hr {
     padding: 2% 0 2% 0; }
     .mainContent-contact .contact-info .indent h4 strong {
       color: #dad943;
-      font-weight: 100; }
+      font-weight: bold; }
     .mainContent-contact .contact-info .indent .not strong {
       color: #fff;
       font-size: 120%;
-      font-weight: 600; }
+      font-weight: bold; }
     .mainContent-contact .contact-info .indent .not.fone {
       padding-top: 5%; }
-  .mainContent-contact .contact-info p {
-    margin-top: 15%;
+  .mainContent-contact .contact-info h4 {
     text-align: center; }
   .mainContent-contact .contact-info img {
     position: absolute; }

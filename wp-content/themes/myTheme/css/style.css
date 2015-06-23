@@ -681,8 +681,7 @@ hr {
       font-weight: bold; }
     .mainContent-contact .contact-info .indent .not.fone {
       padding-top: 5%; }
-  .mainContent-contact .contact-info p {
-    margin-top: 15%;
+  .mainContent-contact .contact-info h4 {
     text-align: center; }
   .mainContent-contact .contact-info img {
     position: absolute; }
