@@ -23,7 +23,7 @@
 	<div class="wrapper">
 		<header class="container header site-header">
 					<h2><strong>DD Accounting Services</strong></h2>
-						<div class = "search-bar"><?php get_search_form(); ?><div>
+						<div class = "search-bar"><p>☎ (61-3) 9350-6611</p><?php get_search_form(); ?></div>
 					<div id="underconstruction" class="modal fade" role="dialog">
 						<div class="modal-dialog">
 							<div class="modal-content">

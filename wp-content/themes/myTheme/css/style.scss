@@ -274,7 +274,6 @@ img.nelioefi {
 
 
 .footer{
-	margin-top: 2%;
 	background-color:#984e54;
 	width:100%;
 
@@ -282,6 +281,11 @@ img.nelioefi {
 		margin-top: 1%;
 		color: #fff;
 		text-align: center;
+		a{
+			text-decoration: none;
+			color: #FFF;
+			font-weight: bold;
+		}
 	}
 }
 
@@ -289,7 +293,6 @@ img.nelioefi {
 /* ABOUT: Content */
 .mainContent-about{
 	.col-md-8{
-		margin-top: 5%;
 		a{
 			color:#88232e;
 		}
@@ -421,7 +424,6 @@ hr{
 		margin-top: 0;
 	}
 	.col-md-8{
-		margin-top: 5%;
 		a{
 			color:#88232e;
 		}
@@ -434,9 +436,6 @@ hr{
 		}
 		img:hover{
 			 opacity:1;
-		}
-		.firstp{
-			margin-bottom: 7%;
 		}
 		.fhr{
 			font-weight:bold;
@@ -533,7 +532,9 @@ hr{
 /*partners*/
 .mainContent-partners{
 	.out8{
-		margin-top: 5%;
+		.last{
+			margin-bottom: 5%;
+		}
 		a{
 			color:#88232e;
 		}
@@ -644,7 +645,6 @@ hr{
 /*Practice Areas*/
 .mainContent-practice{
 	.col-md-8{
-		margin-top: 5%;
 		a{
 			color:#88232e;
 		}
@@ -753,7 +753,6 @@ hr{
 /* Useful Tax Time Resources */
 .mainContent-uttr{
 	.col-md-8{
-		margin-top: 5%;
 		h5{
 			color: #81363b;
 			font-weight: bold;
@@ -768,11 +767,7 @@ hr{
 		b{
 			color: #81363b;
 		}
-		img{
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
+
 	}
 	.col-md-4{
 		margin-top: 7%;
@@ -861,17 +856,13 @@ hr{
 			padding-bottom: 3%;
 		}
 		span.wpcf7-list-item{
-			margin-left:7%;
+			margin-left:5%;
 			display:block;
-			span{
-				font-size: 81%;
-			}
 		}
 	}
 }
 
 .mainContent-contact{
-	margin-top: 4%;
 	.x{
 		a{
 			color: #88232e;
@@ -881,7 +872,6 @@ hr{
 	.col-md-6{
 		b{
 			color: #88232e;
-			font-weight: 200;
 		}
 	}
 	.contact-info{
@@ -896,34 +886,36 @@ hr{
 	.indent{
 		text-align: justify;
 		position:relative;
-		margin: 0 13% 0 13%;
+		margin: -3% 13% 0 13%;
 		padding: 2% 0 2% 0;
 		h4{
 			strong{
 				color:#dad943;
-				font-weight: 100;
+				font-weight: bold;
+				}
+			.boldem{
+				color:#FFF;
 				}
 			}
 			.not{
 				strong{
 					color:#fff;
 					font-size: 120%;
-					font-weight: 600;
+					font-weight: bold;
 				}
 			}
 			.not.fone{
 				padding-top: 5%;
 			}
 		}
-		p{
-			margin-top: 15%;
+		.hear{
 			text-align: center;
+			font-size: 150%;
+
 		}
 		img{
 			position:absolute;
 		}
-
-
 	}
 }
 

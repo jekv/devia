@@ -38,7 +38,7 @@
 						<h1>About Us</h1>
 						<p>DD Accounting Services provide Public Accountants and Registered Tax Agents.</p>
 						<p>DD Accounting Services is committed to fulfilling client satisfaction to the extent that our service is appreciated and referrals encouraged.</p>
-						<a href="<?php echo site_url()?>/about-us/">View More</a>
+						<a href="<?php echo site_url()?>/about-us/">Read More</a>
 					</div>
 					<div class="col-md-6">
 						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
@@ -78,11 +78,11 @@
 	  </div>
 			
 			<div class="partners">
-				<h2>OUR PARTNERSHIP</h2><br>
-				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
-				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
-				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
-				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive">
+				<h2>OUR PARTNERS</h2><br>
+				<a href="http://www.stonegate.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive"></a>
+				<a href="http://www.acconstructions.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive"></a>
+				<a href="http://www.madgwicks.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive"></a>
+				<a href="http://www.bentcougle.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive"></a>
 			</div>
 
 			<!-- Newsletter -->

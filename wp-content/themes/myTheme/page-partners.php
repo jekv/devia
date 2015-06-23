@@ -53,7 +53,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row">
+					<div class="row partlast">
 						<div class="col-md-8">
 							<h4>A C Construction Pty Ltd</h4>
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/d.gif" alt="" class="img-responsive">
