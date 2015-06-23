@@ -211,7 +211,6 @@ img.nelioefi {
     border-color: #6c030b; }
 
 .footer {
-  margin-top: 2%;
   background-color: #984e54;
   width: 100%; }
   .footer p {
@@ -650,46 +649,42 @@ hr {
       padding-top: 3%;
       padding-bottom: 3%; }
     .wrapper.ff .fillup-form span.wpcf7-list-item {
-      margin-left: 7%;
+      margin-left: 5%;
       display: block; }
-      .wrapper.ff .fillup-form span.wpcf7-list-item span {
-        font-size: 81%; }
 
-.mainContent-contact {
-  margin-top: 4%; }
-  .mainContent-contact .x a {
-    color: #88232e;
-    text-decoration: none; }
-  .mainContent-contact .col-md-6 b {
-    color: #88232e;
-    font-weight: 200; }
-  .mainContent-contact .contact-info {
-    color: #fff; }
-    .mainContent-contact .contact-info h2 {
-      position: relative;
-      font-family: Arial;
-      font-size: 220%;
-      padding-top: 4%;
-      text-align: center; }
-    .mainContent-contact .contact-info .indent {
-      text-align: justify;
-      position: relative;
-      margin: 0 13% 0 13%;
-      padding: 2% 0 2% 0; }
-      .mainContent-contact .contact-info .indent h4 strong {
-        color: #dad943;
-        font-weight: 100; }
-      .mainContent-contact .contact-info .indent .not strong {
-        color: #fff;
-        font-size: 120%;
-        font-weight: 600; }
-      .mainContent-contact .contact-info .indent .not.fone {
-        padding-top: 5%; }
-    .mainContent-contact .contact-info p {
-      margin-top: 15%;
-      text-align: center; }
-    .mainContent-contact .contact-info img {
-      position: absolute; }
+.mainContent-contact .x a {
+  color: #88232e;
+  text-decoration: none; }
+.mainContent-contact .col-md-6 b {
+  color: #88232e;
+  font-weight: 200; }
+.mainContent-contact .contact-info {
+  color: #fff; }
+  .mainContent-contact .contact-info h2 {
+    position: relative;
+    font-family: Arial;
+    font-size: 220%;
+    padding-top: 4%;
+    text-align: center; }
+  .mainContent-contact .contact-info .indent {
+    text-align: justify;
+    position: relative;
+    margin: 0 13% 0 13%;
+    padding: 2% 0 2% 0; }
+    .mainContent-contact .contact-info .indent h4 strong {
+      color: #dad943;
+      font-weight: 100; }
+    .mainContent-contact .contact-info .indent .not strong {
+      color: #fff;
+      font-size: 120%;
+      font-weight: 600; }
+    .mainContent-contact .contact-info .indent .not.fone {
+      padding-top: 5%; }
+  .mainContent-contact .contact-info p {
+    margin-top: 15%;
+    text-align: center; }
+  .mainContent-contact .contact-info img {
+    position: absolute; }
 
 @media screen and (min-width: 275px) and (max-width: 479px) {
   .header {
