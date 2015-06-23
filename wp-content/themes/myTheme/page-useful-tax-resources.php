@@ -14,23 +14,27 @@
 
 					<h4><strong>Insolvency &amp; Bankruptcy Advice</strong></h4>
 
-					<img class=" size-full wp-image-8 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/asic-logo.gif" alt="asic-logo" width="442″ height="67″ />
-
+					<img class=" size-full wp-image-8 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/asic-logo.gif" alt="asic-logo" width="442″ height="67″ /><br>
+					<a href="#"><strong>ASIC — Company and Financial Professionals</strong></a>
 					Australian Securities and Investments Commission regulates corporations and provides consumer protection in areas such as insurance and banking.
 
-					<img class=" size-full wp-image-144 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ipa-logo1.gif" alt="ipa-logo" width="224″ height="47″ />
+					<p><a href=""><strong>ASIC-FIDO</strong></a> — Financial Tips & Safety Checks for Investors and Consumers of Financial Products</p>
 
+					<img class=" size-full wp-image-144 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ipa-logo1.gif" alt="ipa-logo" width="224″ height="47″ /><br>
+
+					NIA — National Institute of Accountant now as <a href="#"><strong>Institute of Public  Accountants</strong></a>
 					The National Institute of Accountants(NIA) is a professional organisation for accountants recognised for ther practical, hands-on skills and a broad understanding of the total business environment.
 
-					<img class=" size-full wp-image-142 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ato-logo1.gif" alt="ato-logo" width="270″ height="77″ />
+					<img class=" size-full wp-image-142 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ato-logo1.gif" alt="ato-logo" width="270″ height="77″ /><br>
 
+					<a href="#"><b>ATO — </b>Australian Taxation Office</a>
 					Australian goverment’s tax agency providing information on tax law, rulings, taxpayer rights and obligations. Download e-tax and file a tax return online.
 
-					<img class=" size-full wp-image-143 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ey-logo1.gif" alt="ey-logo" width="124″ height="73″ />
+					<img class=" size-full wp-image-143 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ey-logo1.gif" alt="ey-logo" width="124″ height="73″ /><br>
 
 					Trusts have come under lots of scrutiny from the Government for a while and our experts can assist you in making sure that all aspects of this return is complied with.
 
-					<img class=" size-full wp-image-14 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/centrelink-logo.gif" alt="centrelink-logo" width="254″ height="54″ />
+					<img class=" size-full wp-image-14 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/centrelink-logo.gif" alt="centrelink-logo" width="254″ height="54″ /><br>
 
 					<h5>Centrelink</h5>
 
