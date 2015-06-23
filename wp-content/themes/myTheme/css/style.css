@@ -675,6 +675,8 @@ hr {
     .mainContent-contact .contact-info .indent h4 strong {
       color: #dad943;
       font-weight: bold; }
+    .mainContent-contact .contact-info .indent h4 .boldem {
+      color: #FFF; }
     .mainContent-contact .contact-info .indent .not strong {
       color: #fff;
       font-size: 120%;
@@ -683,8 +685,7 @@ hr {
       padding-top: 5%; }
   .mainContent-contact .contact-info .hear {
     text-align: center;
-    font-size: 120%;
-    font-weight: bold; }
+    font-size: 150%; }
   .mainContent-contact .contact-info img {
     position: absolute; }
 
