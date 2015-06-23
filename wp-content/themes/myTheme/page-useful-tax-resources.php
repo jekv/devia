@@ -16,27 +16,32 @@
 
 					<img class=" size-full wp-image-8 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/asic-logo.gif" alt="asic-logo" width="442″ height="67″ /><br>
 					<a href="#"><strong>ASIC — Company and Financial Professionals</strong></a>
-					Australian Securities and Investments Commission regulates corporations and provides consumer protection in areas such as insurance and banking.
+					Australian Securities and Investments Commission regulates corporations and provides consumer protection in areas such as insurance and banking.<br>
+
 
 					<p><a href=""><strong>ASIC-FIDO</strong></a> — Financial Tips & Safety Checks for Investors and Consumers of Financial Products</p>
 
 					<img class=" size-full wp-image-144 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ipa-logo1.gif" alt="ipa-logo" width="224″ height="47″ /><br>
 
 					NIA — National Institute of Accountant now as <a href="#"><strong>Institute of Public  Accountants</strong></a>
-					The National Institute of Accountants(NIA) is a professional organisation for accountants recognised for ther practical, hands-on skills and a broad understanding of the total business environment.
+					The National Institute of Accountants(NIA) is a professional organisation for accountants recognised for ther practical, hands-on skills and a broad understanding of the total business environment.<br>
+
 
 					<img class=" size-full wp-image-142 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ato-logo1.gif" alt="ato-logo" width="270″ height="77″ /><br>
 
 					<a href="#"><b>ATO — </b>Australian Taxation Office</a>
-					Australian goverment’s tax agency providing information on tax law, rulings, taxpayer rights and obligations. Download e-tax and file a tax return online.
+					Australian goverment’s tax agency providing information on tax law, rulings, taxpayer rights and obligations. Download e-tax and file a tax return online.<br>
+
 
 					<img class=" size-full wp-image-143 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ey-logo1.gif" alt="ey-logo" width="124″ height="73″ /><br>
 
-					Trusts have come under lots of scrutiny from the Government for a while and our experts can assist you in making sure that all aspects of this return is complied with.
+					<a href="#"><b>EY — Ernst & Young Australia</b></a>
+					Trusts have come under lots of scrutiny from the Government for a while and our experts can assist you in making sure that all aspects of this return is complied with.<br>
+
 
 					<img class=" size-full wp-image-14 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/centrelink-logo.gif" alt="centrelink-logo" width="254″ height="54″ /><br>
 
-					<h5>Centrelink</h5>
+					<h5><a href="#">Centrelink</a></h5>
 
 					Information on the Department of Social Security’s benefits. Features a discussion area and links to other health resources.</p>
 				</div> 
@@ -75,7 +80,7 @@
 	 
 		</div>
 		<div class="partnerships">
-				<h2>OUR PARTNERSHIP</h2><br>
+				<h2>OUR PARTNERS</h2><br>
 				<ul>
 					<a href="http://www.stonegate.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/stonegate-logo.gif" alt="" class="img-responsive"></li></a>
 					<a href="http://www.acconstructions.com.au" target = "newTab"><li><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/accg-logo.gif" alt="" class="img-responsive"></li></a>
