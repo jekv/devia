@@ -72,8 +72,6 @@
 					echo '<p> No content found </p>';
 				  endif; ?>
 
-		<?php} ?>
-
 	
 	  </div>
 			
