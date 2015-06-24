@@ -675,9 +675,10 @@ hr {
     position: relative;
     margin: -3% 13% 0 13%;
     padding: 2% 0 2% 0; }
-    .mainContent-contact .contact-info .indent h4 strong {
+    .mainContent-contact .contact-info .indent h4 strong a {
       color: #dad943;
-      font-weight: bold; }
+      font-weight: bold;
+      text-decoration: none; }
     .mainContent-contact .contact-info .indent h4 .boldem {
       color: #FFF; }
     .mainContent-contact .contact-info .indent .not strong {

@@ -895,9 +895,12 @@ hr{
 		padding: 2% 0 2% 0;
 		h4{
 			strong{
-				color:#dad943;
+				a{
+					color:#dad943;
 				font-weight: bold;
+				text-decoration: none;
 				}
+			}
 			.boldem{
 				color:#FFF;
 				}
