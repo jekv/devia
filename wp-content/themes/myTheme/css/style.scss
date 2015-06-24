@@ -99,7 +99,7 @@ img.nelioefi {
 		}
 		p{
 			margin-top: 10%;
-			text-align: right;
+			text-align: left;
 			font-style: italic;
 			font-size: 120%;
 		}
@@ -1497,6 +1497,11 @@ hr{
 		margin-top: 1%;
 	}
 }
+@media screen and (max-width: 1658px){
+	.quote{
+		margin-top: 0;
+	}
+}
 @media screen and (max-width:1470px){
 	/* HOME!!! */
 	.header{
@@ -1504,9 +1509,9 @@ hr{
 			text-align: justify;
 		}
 	}
-	.quote{
-		opacity: 1;
-	}
+	.quote {
+  margin-top: -1%;
+}
 	.content{
 		.btmContent{
 			opacity:1;

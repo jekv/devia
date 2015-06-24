@@ -73,7 +73,7 @@ img.nelioefi {
       font-size: 190%; }
     .quote .col-md-10 p {
       margin-top: 10%;
-      text-align: right;
+      text-align: left;
       font-style: italic;
       font-size: 120%; }
     .quote .col-md-10 button {
@@ -1088,13 +1088,16 @@ hr {
 
   .quote {
     margin-top: 1%; } }
+@media screen and (max-width: 1658px) {
+  .quote {
+    margin-top: 0; } }
 @media screen and (max-width: 1470px) {
   /* HOME!!! */
   .header h2 {
     text-align: justify; }
 
   .quote {
-    opacity: 1; }
+    margin-top: -1%; }
 
   .content .btmContent {
     opacity: 1;
