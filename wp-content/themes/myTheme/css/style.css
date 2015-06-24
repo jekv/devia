@@ -13,6 +13,9 @@ img.nelioefi {
 .header .search-bar {
   float: right;
   margin-top: -3.5%; }
+  .header .search-bar p {
+    font-size: 130%;
+    font-weight: 300; }
 .header .btn {
   border-radius: 0;
   background-color: #6c030b; }
@@ -1040,7 +1043,7 @@ hr {
     position: absolute;
     width: 18%;
     margin-left: 60%;
-    margin-top: 1%;
+    margin-top: -5%;
     background-color: rgba(255, 255, 255, 0.9); }
     .quote h2 {
       font-size: 202%; }
