@@ -1,54 +1,7 @@
 
 <?php get_header(); ?>
 
-	<div class="container quote">
-			<div class="row">
-				<h2>DD Accounting<br>Services</h2>
-				<div class="col-md-10">
-					
-					<h3>NEED ACCOUNTANT? OR TAX AGENTS?</h3>
-					<p>We are accredited via AFG to assist you in all forms of finance requirements. Hence we can place your loan with all major lenders in the market place depending on your individual needs.</p>
-					<button type = "button" class="btn" data-toggle="modal" data-target="#underconstruction">Get a Quote!</button>
-					<!-- oops -->
-					<div id="underconstruction" class="modal fade" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title">Ooooops!</h4>
-								</div>
-								<div class="modal-body">
-									<p>Site underconstruction. Try again later.</p>
-								</div> 
-								<div class="modal-footer">
-									<button class="btn btn-error" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end -->
-				</div>
-			</div>
-			
-		</div>
-	<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
-
-		<div class="container content">
-			<div class="topContent">
-				<div class="row">
-					<div class="col-md-6 about">
-						<h1>About Us</h1>
-						<p>DD Accounting Services provide Public Accountants and Registered Tax Agents.</p>
-						<p>DD Accounting Services is committed to fulfilling client satisfaction to the extent that our service is appreciated and referrals encouraged.</p>
-						<a href="about.html">View More</a>
-					</div>
-					<div class="col-md-6">
-						<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
-					</div>
-				</div>
-			</div>
-		
-		
+	
 		<div class = "midContent">
 			
 
@@ -86,7 +39,7 @@
 	  </div>
  	
  	<div class="partners">
-				<h2>OUR PARTNERSHIP</h2><br>
+				<h2>OUR PARTNERS</h2><br>
 				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive">
 				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive">
 				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive">
