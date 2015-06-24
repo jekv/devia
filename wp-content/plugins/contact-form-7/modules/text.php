@@ -57,6 +57,14 @@ function wpcf7_text_shortcode_handler( $tag ) {
 
 	$value = (string) reset( $tag->values );
 
+	if(wpcf7_script_is() && preg_grep('%readonly$%', $options)){
+		$atts .= ' readonly = "readonly"'
+	}
+
+	if(wpcf7_script_is() && preg_grep('watermark', $options)){
+		$class_att .= ' wpcf7-use-title-as-watermark';
+	}
+
 	if ( $tag->has_option( 'placeholder' ) || $tag->has_option( 'watermark' ) ) {
 		$atts['placeholder'] = $value;
 		$value = '';
@@ -267,6 +275,7 @@ function wpcf7_tg_pane_text_and_relatives( $type = 'text' ) {
 
 <td>
 <br /><input type="checkbox" name="placeholder" class="option" />&nbsp;<?php echo esc_html( __( 'Use this text as placeholder?', 'contact-form-7' ) ); ?>
+<br /><input type="checkbox" name="readonly" class="option" />&nbsp;<?php echo esc_html( __( 'Make this text as readonly?', 'contact-form-7') ); ?>
 </td>
 </tr>
 </table>
