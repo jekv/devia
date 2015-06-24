@@ -21,11 +21,11 @@
 			<br>
 			<h4><strong>Partnership Income Tax Returns</strong></h4>
 			<br>
-			<p>Our experts will assist you in all aspects of this return. Wheter you are a business partnership or a family partnership, we can assist you to maximise all deductions required for a partnership return.</p>
+			<p>Our experts will assist you in all aspects of this return. Whether you are a business partnership or a family partnership, we can assist you to maximise all deductions required for a partnership return.</p>
 			<br>
 			<h4><strong>Superannuation Income Tax Returns</strong></h4>
 			<br>
-			<p>We have on bord a registered Auditor, who will assist in the audit requirements of a Superannuation Audit.</p>
+			<p>We have on board a registered Auditor, who will assist in the audit requirements of a Superannuation Audit.</p>
 			<br>
 			<h4><strong>Trust Income Tax Returns</strong></h4>
 			<br>

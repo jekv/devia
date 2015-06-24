@@ -10,7 +10,7 @@
  					<hr class = "fhr">
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
-					<p><h4>Our Tax Links provide the most up-to-date Accounting and Financial resources for all everyone visiting our web-ste. THese resources are vluable and utilised to benefit clients’ needs.</h4><br>
+					<p><h4>Our Tax Links provide the most up-to-date Accounting and Financial resources for everyone visiting our web-ste. These resources are valuable and utilised to benefit clients’ needs.</h4><br>
 
 					<h4><strong>Insolvency &amp; Bankruptcy Advice</strong></h4>
 
