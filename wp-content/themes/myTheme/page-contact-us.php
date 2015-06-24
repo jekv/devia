@@ -34,7 +34,7 @@
 								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
 								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
 								<h4 class =  "not"><strong>Mina Devia (Manager)</strong></h4>
-								<h4>Email: <strong><a href=""target="newTab">minadevia@devia.com.au</a></strong></h4>
+								<h4>Email: <strong><a href="<?php echo site_url()?>/contact-us/contact-us-m"target="newTab">minadevia@devia.com.au</a></strong></h4>
 								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
 								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
 								<h4 class =  "not"><strong>Office Location</strong></h4>
