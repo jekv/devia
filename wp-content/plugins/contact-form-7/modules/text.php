@@ -61,10 +61,6 @@ function wpcf7_text_shortcode_handler( $tag ) {
 		$atts .= ' readonly = "readonly"'
 	}
 
-	if(wpcf7_script_is() && preg_grep('watermark', $options)){
-		$class_att .= ' wpcf7-use-title-as-watermark';
-	}
-
 	if ( $tag->has_option( 'placeholder' ) || $tag->has_option( 'watermark' ) ) {
 		$atts['placeholder'] = $value;
 		$value = '';
