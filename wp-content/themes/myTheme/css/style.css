@@ -73,7 +73,7 @@ img.nelioefi {
       font-size: 190%; }
     .quote .col-md-10 p {
       margin-top: 10%;
-      text-align: justify;
+      text-align: right;
       font-style: italic;
       font-size: 120%; }
     .quote .col-md-10 button {
@@ -1043,7 +1043,7 @@ hr {
     position: absolute;
     width: 18%;
     margin-left: 60%;
-    margin-top: 0;
+    margin-top: -1%;
     background-color: rgba(255, 255, 255, 0.9); }
     .quote h2 {
       font-size: 202%; }
@@ -1078,10 +1078,16 @@ hr {
     padding-top: .85%; } }
 @media screen and (min-width: 1341px) and (max-width: 1800px) {
   .btmContent input {
-    margin-top: 19%; } }
+    margin-top: 19%; }
+
+  .quote {
+    margin-top: 3%; } }
 @media screen and (max-width: 1650px) {
   .btmContent img {
-    margin-left: 17.9%; } }
+    margin-left: 17.9%; }
+
+  .quote {
+    margin-top: 1%; } }
 @media screen and (max-width: 1470px) {
   /* HOME!!! */
   .header h2 {

@@ -99,7 +99,7 @@ img.nelioefi {
 		}
 		p{
 			margin-top: 10%;
-			text-align: justify;
+			text-align: right;
 			font-style: italic;
 			font-size: 120%;
 		}
@@ -1429,7 +1429,7 @@ hr{
   position: absolute;
   width: 18%;
   margin-left: 60%;
-  margin-top: 0;
+  margin-top: -1%;
   background-color: rgba(255, 255, 255, 0.9);
   h2{
   		    font-size: 202%;
@@ -1484,10 +1484,17 @@ hr{
 	.btmContent input {
   margin-top: 19%;
 	}
+
+	.quote{
+		margin-top: 3%;
+	}
 }
 @media screen and (max-width:1650px){
 	.btmContent img {
   margin-left: 17.9%;
+	}
+	.quote{
+		margin-top: 1%;
 	}
 }
 @media screen and (max-width:1470px){
