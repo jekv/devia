@@ -6,7 +6,7 @@
 					
 					<h3>NEED ACCOUNTANT? OR TAX AGENTS?</h3>
 					<p>We are accredited via AFG to assist you in all forms of finance requirements. Hence we can place your loan with all major lenders in the market place depending on your individual needs.</p>
-					<button type = "button" class="btn" data-target="<?php echo site_url()?>/contact-us/ ?>">Get a Quote!</button>
+					<button type = "button" class="btn" href="<?php echo site_url()?>/contact-us/ ?>">Get a Quote!</button>
 				</div>
 			</div>
 			
