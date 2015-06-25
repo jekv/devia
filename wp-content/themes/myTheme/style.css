@@ -131,8 +131,7 @@ img.nelioefi {
     opacity: 0.5; }
   .midContent .col-md-4 img:hover {
     opacity: 1; }
-  .midContent h3 {
-    text-align: center;
+  .midContent h1 {
     display: none; }
 
 /* Partnership */
@@ -726,8 +725,8 @@ hr {
     display: block;
     margin: 0 auto 0 auto;
     width: 100%; }
-  .content .midContent h3 {
-    display: inline-block;
+  .content .midContent h1 {
+    display: block;
     text-align: center; }
 
   .contactU input {
@@ -812,8 +811,8 @@ hr {
     margin: 0 auto 0 auto;
     width: 100%;
     height: auto; }
-  .content .midContent h3 {
-    display: inline-block;
+  .content .midContent h1 {
+    display: block;
     text-align: center; }
   .content .partners img {
     display: block;
@@ -900,8 +899,8 @@ hr {
     margin: 0 auto 0 auto; }
   .content .midContent .col-md-4 p {
     text-align: center; }
-  .content .midContent h3 {
-    display: inline-block;
+  .content .midContent h1 {
+    display: block;
     text-align: center; }
   .content .btmContent img {
     margin-left: -11.5%; }
