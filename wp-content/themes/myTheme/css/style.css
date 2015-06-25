@@ -581,7 +581,7 @@ hr {
 .mainContent-uttr .col-md-8 .x {
   margin-top: 10px;
   margin-bottom: 10px; }
-.mainContent-uttr .col-md-8 a {
+.mainContent-uttr .col-md-8 strong {
   color: #81363b; }
 .mainContent-uttr .col-md-8 b {
   color: #81363b; }
@@ -680,7 +680,7 @@ hr {
     .mainContent-contact .contact-info .indent h4 strong a {
       color: #dad943;
       font-weight: bold;
-      text-decoration: none; }
+      text-decoration: underline; }
     .mainContent-contact .contact-info .indent h4 .boldem {
       color: #FFF; }
     .mainContent-contact .contact-info .indent .not strong {
