@@ -24,19 +24,19 @@
 					<img class=" size-full wp-image-144 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ipa-logo1.gif" alt="ipa-logo" width="224″ height="47″ /><br>
 
 					<strong>NIA — National Institute of Accountant</strong>, now known as <strong><u>Institute of Public  Accountants</u></strong>
-					The National Institute of Accountants(NIA) is a professional organisation for accountants recognised for their practical, hands-on skills and a broad understanding of the total business environment.<br><br>
+					The National Institute of Accountants(NIA) is a professional organisation for accountants recognised for their practical, hands-on skills and a broad understanding of the total business environment.<br><br><br>
 
 
 					<img class=" size-full wp-image-142 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ato-logo1.gif" alt="ato-logo" width="270″ height="77″ /><br>
 
 					<b>ATO — </b>Australian Taxation Office
-					Australian goverment’s tax agency providing information on tax law, rulings, taxpayer rights and obligations. Download e-tax and file a tax return online.<br><br>
+					Australian goverment’s tax agency providing information on tax law, rulings, taxpayer rights and obligations. Download e-tax and file a tax return online.<br><br><br>
 
 
 					<img class=" size-full wp-image-143 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ey-logo1.gif" alt="ey-logo" width="124″ height="73″ /><br>
 
 					<b>EY — Ernst & Young Australia</b>
-					Trusts have come under lots of scrutiny from the Government for a while and our experts can assist you in making sure that all aspects of this return is complied with.<br><br>
+					Trusts have come under lots of scrutiny from the Government for a while and our experts can assist you in making sure that all aspects of this return is complied with.<br><br><br>
 
 
 					<img class=" size-full wp-image-14 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/centrelink-logo.gif" alt="centrelink-logo" width="254″ height="54″ /><br>
