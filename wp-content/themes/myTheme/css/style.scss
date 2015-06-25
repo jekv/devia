@@ -984,10 +984,7 @@ hr{
 			width: auto;
 		}
 	}
-	/*ABOUT*/
-	.mainContent-about{
-		margin-top: 40%;
-	}
+
 	.header{
 		h2{
 			text-align:center;
@@ -995,7 +992,7 @@ hr{
 	}
 	/*CFB*/
 	.mainContent-cfb{
-		margin-top: 40%;
+
 		.col-md-8{
 			h2{
 				text-align: center;
@@ -1011,11 +1008,11 @@ hr{
 	}
 	/*partner*/
 	.mainContent-partners{
-		margin-top: 40%;
+
 	}
 	/*practice area*/
 	.mainContent-practice{
-		margin-top: 42%;
+
 		.col-md-4{
 			button{
 				margin-left:20%;
@@ -1024,16 +1021,12 @@ hr{
 	}
 	/*uttr*/
 	.mainContent-uttr{
-		margin-top: 40%;
+
 		.col-md-4{
 			button{
 				margin-left: 23%;
 			}
 		}
-	}
-	/*contact*/
-	.mainContent-contact{
-		margin-top: 40%;
 	}
 
 }
@@ -1049,6 +1042,9 @@ hr{
 	.navbar-default .nav li a {
   margin-left: 0;
   text-align: left;
+}
+.search-bar{
+	display: none;
 }
 
 	.midCOntent{
@@ -1114,7 +1110,7 @@ hr{
 	}
 	/*About*/
 	.mainContent-about{
-		margin-top:10%;
+
 		.col-md-4{
 			.cuo{
 				width: 100%;
@@ -1132,7 +1128,7 @@ hr{
 	}
 	/*partner*/
 	.mainContent-partners{
-		margin-top: 5%;
+
 		.col-md-4{
 			img{
 				width: 100%;
@@ -1141,7 +1137,7 @@ hr{
 	}
 	/*practice area*/
 	.mainContent-practice{
-		margin-top: 10%;
+
 		.col-md-4{
 			img{
 				width: 100%;
@@ -1150,7 +1146,7 @@ hr{
 	}
 	/*uttr*/
 	.mainContent-uttr{
-		margin-top:10%;
+
 		.col-md-8{
 			h4,h5{
 				text-align: center;
@@ -1173,10 +1169,7 @@ hr{
 			}
 		}
 	}
-	/*contact*/
-	.mainContent-contact{
-		margin-top: 15%;
-	}
+
 }
 @media screen and (min-width:768px) and (max-width:991px){
 	.navbar-default{

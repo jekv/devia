@@ -735,42 +735,25 @@ hr {
   .contactU .wpcf7-submit {
     width: auto; }
 
-  /*ABOUT*/
-  .mainContent-about {
-    margin-top: 40%; }
-
   .header h2 {
     text-align: center; }
 
   /*CFB*/
-  .mainContent-cfb {
-    margin-top: 40%; }
-    .mainContent-cfb .col-md-8 h2 {
-      text-align: center; }
-    .mainContent-cfb .col-md-4 button {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
+  .mainContent-cfb .col-md-8 h2 {
+    text-align: center; }
+  .mainContent-cfb .col-md-4 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
   /*partner*/
-  .mainContent-partners {
-    margin-top: 40%; }
-
   /*practice area*/
-  .mainContent-practice {
-    margin-top: 42%; }
-    .mainContent-practice .col-md-4 button {
-      margin-left: 20%; }
+  .mainContent-practice .col-md-4 button {
+    margin-left: 20%; }
 
   /*uttr*/
-  .mainContent-uttr {
-    margin-top: 40%; }
-    .mainContent-uttr .col-md-4 button {
-      margin-left: 23%; }
-
-  /*contact*/
-  .mainContent-contact {
-    margin-top: 40%; } }
+  .mainContent-uttr .col-md-4 button {
+    margin-left: 23%; } }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   h2 strong {
     display: none; }
@@ -781,6 +764,9 @@ hr {
   .navbar-default .nav li a {
     margin-left: 0;
     text-align: left; }
+
+  .search-bar {
+    display: none; }
 
   .midCOntent p {
     text-align: center; }
@@ -826,10 +812,8 @@ hr {
     width: auto; }
 
   /*About*/
-  .mainContent-about {
-    margin-top: 10%; }
-    .mainContent-about .col-md-4 .cuo {
-      width: 100%; }
+  .mainContent-about .col-md-4 .cuo {
+    width: 100%; }
 
   /*CFB*/
   .mainContent-cfb {
@@ -838,36 +822,26 @@ hr {
       width: 100%; }
 
   /*partner*/
-  .mainContent-partners {
-    margin-top: 5%; }
-    .mainContent-partners .col-md-4 img {
-      width: 100%; }
+  .mainContent-partners .col-md-4 img {
+    width: 100%; }
 
   /*practice area*/
-  .mainContent-practice {
-    margin-top: 10%; }
-    .mainContent-practice .col-md-4 img {
-      width: 100%; }
+  .mainContent-practice .col-md-4 img {
+    width: 100%; }
 
   /*uttr*/
-  .mainContent-uttr {
-    margin-top: 10%; }
-    .mainContent-uttr .col-md-8 h4, .mainContent-uttr .col-md-8 h5 {
-      text-align: center; }
-    .mainContent-uttr .col-md-8 .ptitle {
-      text-align: center; }
-    .mainContent-uttr .col-md-4 .reg {
-      height: 110%; }
-    .mainContent-uttr .col-md-4 button {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    .mainContent-uttr .col-md-4 img {
-      width: 100%; }
-
-  /*contact*/
-  .mainContent-contact {
-    margin-top: 15%; } }
+  .mainContent-uttr .col-md-8 h4, .mainContent-uttr .col-md-8 h5 {
+    text-align: center; }
+  .mainContent-uttr .col-md-8 .ptitle {
+    text-align: center; }
+  .mainContent-uttr .col-md-4 .reg {
+    height: 110%; }
+  .mainContent-uttr .col-md-4 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .mainContent-uttr .col-md-4 img {
+    width: 100%; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-default {
     position: relative; }
