@@ -31,7 +31,7 @@
 
 			<div class = "midContent">
 			
-	
+				<h3>Our Services</h3>
 		<?php query_posts('category_name='.get_the_title().'&post_status=publish,future');?>
 			
 			<div class = "row">

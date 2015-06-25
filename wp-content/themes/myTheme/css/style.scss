@@ -175,6 +175,10 @@ img.nelioefi {
 				opacity:1;
 				}
 	}
+	h3{
+		text-align: center;
+		display: none;
+	}
 }
 /* Partnership */
 .partners{
@@ -966,6 +970,9 @@ hr{
 				margin:0 auto 0 auto;
 				width: 100%;
 			}
+			h3{
+				display: inline-block;
+			}
 		}
 	}
 	.contactU{
@@ -1082,6 +1089,9 @@ hr{
 				margin:0 auto 0 auto;
 				width: 100%;
 				height: auto;
+			}
+			h3{
+				display: inline-block;
 			}
 		}
 		.partners{
@@ -1215,6 +1225,9 @@ hr{
 					text-align: center;
 				}
 
+			}
+			h3{
+				display: inline-block;
 			}
 		}
 		.btmContent{
@@ -1635,6 +1648,28 @@ hr{
 	}
 }
 
+//menu bg
+#responsive-menu {
+  position: absolute;
+  width: 75%;
+  left: -75%;
+  top: 0px;
+  background: rgba(136, 35, 46, 0.95);
+  z-index: 9999;
+  box-shadow: 0px 1px 8px #333333;
+  font-size: 13px !important;
+  max-width: 999px;
+  display: none;
+}
+
+#responsive-menu-title {
+  width: 95% !important;
+  font-size: 14px !important;
+  padding: 20px 0px 20px 5% !important;
+  margin-left: 0px !important;
+  background: #6c030b !important;
+  white-space: nowrap !important;
+}
 
 
 
