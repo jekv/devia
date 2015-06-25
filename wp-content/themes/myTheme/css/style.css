@@ -662,7 +662,7 @@ hr {
 .mainContent-contact .x a {
   color: #88232e;
   text-decoration: none; }
-.mainContent-contact .col-md-6 b {
+.mainContent-contact .col-md-6 b a {
   color: #88232e; }
 .mainContent-contact .contact-info {
   color: #fff; }
