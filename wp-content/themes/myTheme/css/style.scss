@@ -2,6 +2,7 @@ body{
 	text-align: justify;
 	font-family: OpenSans;
 }
+
 img.nelioefi {
   min-width:100px;
   min-height:100px;
@@ -935,6 +936,10 @@ hr{
 	.header{
 		display:none;
 	}
+	#click-menu.admin-bar-showing {
+  margin-top: 40px;
+  background: rgba(164, 78, 88, 0.8);
+}
 	.navbar-default .nav li a {
   		margin-left: 0;
   		text-align: left;
@@ -943,7 +948,11 @@ hr{
 		position:relative;
 	}
 	.navbar-brand{
+	
 		display: block;
+	}
+	.navbar-toggle{
+		display:none;
 	}
 	.yoyo{
 		display:none;
@@ -1028,9 +1037,6 @@ hr{
 			}
 		}
 	}
-	h4{
-		text-align: left;
-	}
 
 }
 
@@ -1042,11 +1048,14 @@ hr{
 	}.navbar-nav li {
   		margin-left: -0.4%;
 	}
+	.navbar-toggle{
+		display:none;
+	}
 	.navbar-default .nav li a {
   margin-left: 0;
   text-align: left;
 }
-.search-bar{
+header{
 	display: none;
 }
 
@@ -1172,6 +1181,10 @@ hr{
 			}
 		}
 	}
+	#click-menu.admin-bar-showing {
+  margin-top: 40px;
+  background: rgba(164, 78, 88, 0.8);
+}
 
 }
 @media screen and (min-width:768px) and (max-width:991px){
@@ -1186,6 +1199,10 @@ hr{
 			}
 		}
 	}
+	#click-menu.admin-bar-showing {
+  margin-top: 32px;
+  display: none;
+}
 	.navbar-brand{
 			display: none;
 		}
@@ -1653,6 +1670,7 @@ hr{
 	}
 }
 
+
 //menu bg
 #responsive-menu {
   position: absolute;
@@ -1675,6 +1693,7 @@ hr{
   background: #6c030b !important;
   white-space: nowrap !important;
 }
+
 
 
 
