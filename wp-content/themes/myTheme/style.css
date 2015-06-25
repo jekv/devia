@@ -583,7 +583,7 @@ hr {
   margin-bottom: 10px; }
 .mainContent-uttr .col-md-8 strong {
   color: #81363b; }
-.mainContent-uttr .col-md-8 b {
+.mainContent-uttr .col-md-8 b, .mainContent-uttr .col-md-8 a {
   color: #81363b; }
 .mainContent-uttr .col-md-4 {
   margin-top: 7%; }
@@ -662,7 +662,7 @@ hr {
 .mainContent-contact .x a {
   color: #88232e;
   text-decoration: none; }
-.mainContent-contact .col-md-6 b a {
+.mainContent-contact .col-md-6 b a, .mainContent-contact .col-md-6 b {
   color: #88232e; }
 .mainContent-contact .contact-info {
   color: #fff; }
