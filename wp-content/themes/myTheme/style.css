@@ -1007,11 +1007,15 @@ hr {
   .yoyo {
     margin-top: -2%; }
 
+  .topContent .about a {
+    margin-top: 0; }
+
   .col-md-4 img {
     box-shadow: 2px 3px #d3d3d3;
     -webkit-box-shadow: 10px #d3d3d3;
     margin-top: 10%;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
 
   .navbar-default .nav li a {
     padding-left: 0; }
