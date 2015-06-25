@@ -8,7 +8,7 @@
 			<div class = "col-md-6">
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
-					<h4>It's really easy to get in touch with us! Please fill in the form below or email us at <b>dipakdevia@devia.com.au</b> or minadevia@devia.com.au and we'll get back to you as soon as possible. Or if you want to speak to our friendly staff right now then please call <b>(61-3) 9350-611</b>.</h4>
+					<h4>It's really easy to get in touch with us! Please fill in the form below or email us at <b>dipakdevia@devia.com.au</b> or minadevia@devia.com.au and we'll get back to you as soon as possible. Or if you want to speak to our friendly staff right now then please call <b>(61-3) 9350-6611</b>.</h4>
 					<div class="wrapper ff">
 						<div class="fillup-form">
 							<p><?php the_content();?></p>
@@ -30,11 +30,11 @@
 							<div class="indent">
 								
 								<h4 class =  "not"><strong>Dipak Devia (Director) FIPA</strong></h4>
-								<h4>Email: <strong><a href="mailto:dipakdevia@devia.com.au"target="newTab">dipakdevia@devia.com.au</a></strong></h4>
+								<h4>Email: <strong><a href="mailto:dipakdevia@devia.com.au">dipakdevia@devia.com.au</a></strong></h4>
 								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
 								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
 								<h4 class =  "not"><strong>Mina Devia (Manager)</strong></h4>
-								<h4>Email: <strong><a href="mailto:minadevia@devia.com.au"target="newTab">minadevia@devia.com.au</a></strong></h4>
+								<h4>Email: <strong><a href="mailto:minadevia@devia.com.au">minadevia@devia.com.au</a></strong></h4>
 								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
 								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
 								<h4 class =  "not"><strong>Office Location</strong></h4>

@@ -6,25 +6,7 @@
 					
 					<h3>NEED ACCOUNTANT? OR TAX AGENTS?</h3>
 					<p>We are accredited via AFG to assist you in all forms of finance requirements. Hence we can place your loan with all major lenders in the market place depending on your individual needs.</p>
-					<button type = "button" class="btn" data-toggle="modal" data-target="#underconstruction">Get a Quote!</button>
-					<!-- oops -->
-					<div id="underconstruction" class="modal fade" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title">Ooooops!</h4>
-								</div>
-								<div class="modal-body">
-									<p>Site underconstruction. Try again later.</p>
-								</div>
-								<div class="modal-footer">
-									<button class="btn btn-error" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end -->
+					<button type = "button" class="btn" data-target="<?php echo site_url()?>/contact-us/ ?>">Get a Quote!</button>
 				</div>
 			</div>
 			
@@ -36,8 +18,9 @@
 				<div class="row">
 					<div class="col-md-6 about">
 						<h1>About Us</h1>
-						<p>DD Accounting Services provide Public Accountants and Registered Tax Agents.</p>
+						<p>DD Accounting Services provides Public Accountants and Registered Tax Agents.</p>
 						<p>DD Accounting Services is committed to fulfilling client satisfaction to the extent that our service is appreciated and referrals encouraged.</p>
+						<p>We pride ourselves in building strong, long-term business relationships with our clients.</p>
 						<a href="<?php echo site_url()?>/about-us/">Read More</a>
 					</div>
 					<div class="col-md-6">
@@ -48,7 +31,7 @@
 
 			<div class = "midContent">
 			
-
+	
 		<?php query_posts('category_name='.get_the_title().'&post_status=publish,future');?>
 			
 			<div class = "row">

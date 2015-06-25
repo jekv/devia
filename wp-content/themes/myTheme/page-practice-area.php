@@ -25,7 +25,7 @@
 			<br>
 			<h4><strong>Superannuation Income Tax Returns</strong></h4>
 			<br>
-			<p>We have on board a registered Auditor, who will assist in the audit requirements of a Superannuation Audit.</p>
+			<p>We have a registered Auditor onboard, who will assist in the audit requirements of a Superannuation Audit.</p>
 			<br>
 			<h4><strong>Trust Income Tax Returns</strong></h4>
 			<br>
