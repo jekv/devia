@@ -16,10 +16,10 @@
 
 					<img class=" size-full wp-image-8 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/asic-logo.gif" alt="asic-logo" width="442″ height="67″ /><br>
 					<strong>ASIC — Company and Financial Professionals</strong>
-					Australian Securities and Investments Commission regulates corporations and provides consumer protection in areas such as insurance and banking.<br><br>
+					Australian Securities and Investments Commission regulates corporations and provides consumer protection in areas such as insurance and banking.<br>
 
 
-					<p><strong>ASIC-FIDO</strong> — Financial Tips & Safety Checks for Investors and Consumers of Financial Products</p>
+					<p><strong>ASIC-FIDO</strong> — Financial Tips & Safety Checks for Investors and Consumers of Financial Products</p><br><br>
 
 					<img class=" size-full wp-image-144 aligncenter" src="<?php echo site_url()?>/wp-content/uploads/2015/05/ipa-logo1.gif" alt="ipa-logo" width="224″ height="47″ /><br>
 
