@@ -727,7 +727,8 @@ hr {
     margin: 0 auto 0 auto;
     width: 100%; }
   .content .midContent h3 {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
 
   .contactU input {
     width: 100%; }
@@ -812,7 +813,8 @@ hr {
     width: 100%;
     height: auto; }
   .content .midContent h3 {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
   .content .partners img {
     display: block;
     margin: 0 auto 0 auto; }
@@ -899,7 +901,8 @@ hr {
   .content .midContent .col-md-4 p {
     text-align: center; }
   .content .midContent h3 {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
   .content .btmContent img {
     margin-left: -11.5%; }
   .content .btmContent p {
