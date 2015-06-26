@@ -872,6 +872,7 @@ hr{
 	}
 }
 
+
 .mainContent-contact{
 	.x{
 		a{
@@ -1698,12 +1699,38 @@ header{
 }
 
 
-
-
-
-
-
-
+.containerimg{
+	position: relative;
+	.calluson{
+		position: absolute;
+		top: -7%;
+		left: 29%;
+		width: 76%;
+		text-align: center;
+		h3{
+			color:#FFF;
+			strong{
+				font-size: 118%;
+			}
+		}
+		strong{
+			a{
+				color: #fff;
+				display: block;
+				text-decoration: none;
+				font-size: 139%;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			p{
+				color: #fff;
+				font-size: larger;
+				padding-top: 3%;
+			}
+		}
+	}
+}
 
 
 

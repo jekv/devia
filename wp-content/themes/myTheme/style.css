@@ -1174,6 +1174,30 @@ hr {
   background: #6c030b !important;
   white-space: nowrap !important; }
 
+.containerimg {
+  position: relative; }
+  .containerimg .calluson {
+    position: absolute;
+    top: -7%;
+    left: 29%;
+    width: 76%;
+    text-align: center; }
+    .containerimg .calluson h3 {
+      color: #FFF; }
+      .containerimg .calluson h3 strong {
+        font-size: 118%; }
+    .containerimg .calluson strong a {
+      color: #fff;
+      display: block;
+      text-decoration: none;
+      font-size: 139%; }
+    .containerimg .calluson strong a:hover {
+      text-decoration: underline; }
+    .containerimg .calluson strong p {
+      color: #fff;
+      font-size: larger;
+      padding-top: 3%; }
+
 @font-face {
   font-family: OpenSans;
   src: url(fonts/opensans/OpenSans-Light.ttf); }
