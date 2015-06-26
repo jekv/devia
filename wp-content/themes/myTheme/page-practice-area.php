@@ -16,24 +16,7 @@
  			<div class="reg">
 						<h3>Free Initial Consultation</h3>
 						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?>
-					<!-- oops -->
-					<div id="underconstruction" class="modal fade" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title">Ooooops!</h4>
-								</div>
-								<div class="modal-body">
-									<p>Site underconstruction. Try again later.</p>
-								</div>
-								<div class="modal-footer">
-									<button class="btn btn-error" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end -->
+
 				</div>
 					<img src="<?php echo site_url()?>/wp-content/uploads/2015/06/imageedit_1_8718636829.png" alt="" class="img-responsive cuo">
  		</div>
