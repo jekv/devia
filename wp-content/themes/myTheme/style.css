@@ -680,7 +680,8 @@ hr {
     padding: 2% 0 2% 0; }
     .mainContent-contact .contact-info .indent h4 strong a {
       color: #dad943;
-      font-weight: bold;
+      font-weight: bold; }
+    .mainContent-contact .contact-info .indent h4 strong a:hover {
       text-decoration: underline; }
     .mainContent-contact .contact-info .indent h4 .boldem {
       color: #FFF; }
