@@ -1,15 +1,14 @@
 <?php get_header(); ?>
-<div class="container quote">
+		<div class="container quote">
 			<div class="row">
 				<h2>DD Accounting<br>Services</h2>
-				<div class="col-md-10">
+				<div class="wrapper">
 					
 					<h3>NEED AN ACCOUNTANT? OR TAX AGENTS?</h3>
 					<p>We are accredited via AFG to assist you in all forms of finance requirements. Hence we can place your loan with all major lenders in the market place depending on your individual needs.</p>
 					<button type = "button" class="btn" onclick="window.location='<?php echo site_url()?>/contact-us/ ?>'">Get a Quote!</button>
 				</div>
 			</div>
-			
 		</div>
 		<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
 
@@ -24,7 +23,7 @@
 						<a href="<?php echo site_url()?>/about-us/">Read More</a>
 					</div>
 					<div class="col-md-6">
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/Home_03.png" alt="" class="img-responsive">
 					</div>
 				</div> 
 			</div>

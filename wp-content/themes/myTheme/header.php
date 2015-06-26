@@ -16,31 +16,35 @@
 	 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	 <link rel="stylesheet" href="responsive-nav.css">
     <script src="responsive-nav.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+	
+	<div id="newsletter" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					<h4 class="modal-title">Newsletter</h4>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-error" data-dismiss="modal" style="background: #6c030b; color: #FFF;">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<div class="wrapper">
 		<header class="container header site-header">
-					<h2><strong><a href="<?php echo site_url()?>/ ?>">DD Accounting Services</a></strong></h2>
-						<div class = "search-bar"><p>☎ (61-3) 9350-6611</p><?php get_search_form(); ?></div>
-					<div id="underconstruction" class="modal fade" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title">Ooooops!</h4>
-								</div>
-								<div class="modal-body">
-									<p>Site underconstruction. Try again later.</p>
-								</div>
-								<div class="modal-footer">
-									<button class="btn btn-error" data-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
+			<h2><strong><a href="<?php echo site_url()?>/ ?>">DD Accounting Services</a></strong></h2>
+			<div class = "search-bar"><p>☎ (61-3) 9350-6611</p><?php get_search_form(); ?></div>
 		</header>
 
 		<!-- Eto yung pagkuha ng Menu -->

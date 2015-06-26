@@ -66,18 +66,18 @@ img.nelioefi {
     font-family: Arial;
     color: #6c030b;
     font-size: 250%; }
-  .quote .col-md-10 {
+  .quote .wrapper {
     margin: 0 6% 0 6%; }
-    .quote .col-md-10 h3 {
+    .quote .wrapper  h3 {
       text-align: center;
       color: rgba(108, 3, 11, 0.7);
       font-size: 190%; }
-    .quote .col-md-10 p {
+    .quote .wrapper  p {
       margin-top: 10%;
       text-align: left;
       font-style: italic;
       font-size: 120%; }
-    .quote .col-md-10 button {
+    .quote .wrapper  button {
       color: #fff;
       background-color: #88232e;
       font-size: 16px;
@@ -88,7 +88,7 @@ img.nelioefi {
       margin-bottom: 8%;
       margin-top: 13%;
       border-radius: 8px; }
-    .quote .col-md-10 button:hover {
+    .quote .wrapper  button:hover {
       background-color: transparent;
       color: #6c030b;
       border-color: #6c030b; }
@@ -1052,19 +1052,6 @@ hr {
   .yoyo {
     margin-top: -1.6%; }
 
-  .quote {
-    position: absolute;
-    width: 18%;
-    margin-left: 60%;
-    margin-top: -1%;
-    background-color: rgba(255, 255, 255, 0.9); }
-    .quote h2 {
-      font-size: 202%; }
-    .quote .col-md-10 p {
-      font-size: 91%; }
-    .quote .col-md-10 h3 {
-      font-size: 129%; }
-
   .navbar-default {
     position: relative; }
     .navbar-default .navbar-nav {
@@ -1134,19 +1121,6 @@ hr {
     margin-top: 0; }
     .navbar-default .nav li a {
       margin-left: 0; }
-
-  .quote {
-    position: absolute;
-    width: 18%;
-    margin-left: 60%;
-    margin-top: 2%;
-    background-color: rgba(255, 255, 255, 0.9); }
-    .quote h2 {
-      font-size: 202%; }
-    .quote .col-md-10 p {
-      font-size: 91%; }
-    .quote .col-md-10 h3 {
-      font-size: 129%; }
 
   .navbar-nav {
     display: inline-flex;
