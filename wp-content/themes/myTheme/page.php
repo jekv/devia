@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container quote">
 			<div class="row">
-				<h2>DD Accounting<br>Services</h2>
+				<h2><a href="<?php echo site_url()?>/?>'">DD Accounting<br>Services</a></h2>
 				<div class="col-md-10">
 					
 					<h3>NEED ACCOUNTANT? OR TAX AGENTS?</h3>

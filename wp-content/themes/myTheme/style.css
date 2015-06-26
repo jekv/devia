@@ -7,9 +7,10 @@ img.nelioefi {
   min-height: 100px; }
 
 /* Header */
-.header h2 {
+.header h2 a {
   font-family: Arial;
-  color: #6c030b; }
+  color: #6c030b;
+  text-decoration: none; }
 .header .search-bar {
   float: right;
   margin-top: -3.5%; }

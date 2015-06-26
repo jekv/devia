@@ -9,9 +9,10 @@ img.nelioefi {
 }
 /* Header */
 .header{
-	h2{
+	h2 a{
 		font-family: Arial;
 		color:#6c030b;
+		text-decoration: none;
 	}
 	.search-bar{
 		float: right;
