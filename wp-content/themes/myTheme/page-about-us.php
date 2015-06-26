@@ -26,7 +26,7 @@ get_header();
 						<?php echo do_shortcode('[contact-form-7 id="129" title="newFrm"]'); ?>
 					
 					</div>
-					<img src="<?php echo site_url()?>/wp-content/uploads/2015/06/imageedit_1_8718636829.png" alt="" class="img-responsive cuo">
+					<?php include 'cuo.php' ?>
 				</div>
 	 </div> 
 	</div>
