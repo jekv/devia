@@ -106,7 +106,7 @@ window.newsletter_check = function (f) {
 
 		<div class="contactU">
 			<h2>Contact US</h2>
-			<p>It's really easy to get in touch with us! Please fill in the form below or email us at dipakdevia@devia.com.au and we'll get back to you as soon as possible. Or if you want to speak to our friendly staff right now then please call (61-3) 9350-6611.</p>
+			<p>It's really easy to get in touch with us! Please fill in the form below or email us at <strong class = "dipak"><a href="mailto:dipakdevia@devia.com.au">dipakdevia@devia.com.au</a></strong> and we'll get back to you as soon as possible. Or if you want to speak to our friendly staff right now then please call (61-3) 9350-6611.</p>
 			<?php echo do_shortcode( '[contact-form-7 id="133" title="my"]' ); ?>
 </div>
 </div>

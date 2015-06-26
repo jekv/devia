@@ -182,6 +182,11 @@ img.nelioefi {
 
 .contactU {
   margin-top: 8%; }
+  .contactU .dipak a {
+    color: #88232e;
+    text-decoration: none; }
+  .contactU .dipak a:hover {
+    text-decoration: underline; }
   .contactU h2 {
     text-transform: uppercase;
     text-align: center; }
