@@ -59,11 +59,14 @@
 	  </div>
 			
 			<div class="partners">
-				<h2>OUR PARTNERS</h2><br>
-				<a href="http://www.stonegate.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part1-img.gif" alt="" class="img-responsive"></a>
-				<a href="http://www.acconstructions.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part2-img.gif" alt="" class="img-responsive"></a>
-				<a href="http://www.madgwicks.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part3-img.gif" alt="" class="img-responsive"></a>
-				<a href="http://www.bentcougle.com.au" target = "newTab"><img src="<?php echo site_url()?>/wp-content/uploads/2015/05/part4-img.gif" alt="" class="img-responsive"></a>
+				<?php
+				$post_285 = get_post(285); 
+				$title = $post_285->post_title;
+				$content = $post_285->pos_content;
+				?>
+				<h2><?php echo $title ?></h2><br>
+				<?php echo get_post_field('post_content', $post_285); ?>
+				
 			</div>
 
 			<!-- Newsletter -->
