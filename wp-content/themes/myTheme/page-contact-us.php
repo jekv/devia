@@ -22,29 +22,10 @@
 		echo '<p> No content found </p>';
 	  endif; ?>
 <div class="col-md-6">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3155.1622777905204!2d144.944719!3d-37.739337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65b449d9baa19%3A0xff7c593b1480f33f!2s425+Bell+St%2C+Pascoe+Vale+South+VIC+3044%2C+Australia!5e0!3m2!1sen!2sph!4v1432532528901" width="560" height="580" frameborder="0" style="border:0"></iframe>
-
-					<div class="contact-info wrapper">
-						<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/contact-info-bg.gif" alt="">
-							<h2><strong>Call us on (61-3) 9350-6611</strong></h2>
-							<div class="indent">
-								
-								<h4 class =  "not"><strong>Dipak Devia (Director) FIPA</strong></h4>
-								<h4>Email: <strong><a href="mailto:dipakdevia@devia.com.au">dipakdevia@devia.com.au</a></strong></h4>
-								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
-								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
-								<h4 class =  "not"><strong>Mina Devia (Manager)</strong></h4>
-								<h4>Email: <strong><a href="mailto:minadevia@devia.com.au">minadevia@devia.com.au</a></strong></h4>
-								<h4>Telephone: <strong class = "boldem">(03) 9350-6611</strong></h4>
-								<h4>Fax: <strong class = "boldem">(03) 9350-6616</strong></h4><br>
-								<h4 class =  "not"><strong>Office Location</strong></h4>
-								<h4>425 Bell Street, Pascoe Vale South (Corner of Springhall Parade) Victoria, 3044, Australia</h4>
-								<h4 class =  "not fone"><strong>Telephone: </strong>(61-3) 9350-6611</h4>
-								<h4 class =  "not"><strong>Fax: </strong>(61-3) 9350-6616</h4>
-								<h4 class = "hear">We'd love to hear from you.</h4>
-							</div>
-							
-						</div>
+					<?php $post_298 = get_post(298);
+					echo get_post_field('post_content', $post_298);
+					 ?>
+					
 					</div>
 			</div>
 		</div>
