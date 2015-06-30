@@ -1,15 +1,14 @@
 <?php get_header(); ?>
-<div class="container quote">
+		<div class="container quote">
 			<div class="row">
 				<h2>DD Accounting<br>Services</h2>
-				<div class="col-md-10">
+				<div class="wrapper">
 					
 					<?php $post_321 = get_post(321);
 					echo get_post_field('post_content', 321);  ?>
 
 				</div>
 			</div>
-			
 		</div>
 		<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/first-img.gif" alt="" class = "img-responsive yoyo">
 
