@@ -20,12 +20,8 @@
 						echo get_post_field('post_content',$post_314); ?>
 					</div>
 					<div class="col-md-6">
-<<<<<<< HEAD
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/Home_03.png" alt="" class="img-responsive">
-=======
 						<?php $post_314 = get_post(314);
 						echo get_the_post_thumbnail(314, 'full'); ?>
->>>>>>> 0cb6bd10ef32ff11fbdc8bbb18c524179bbc9b7e
 					</div>
 				</div> 
 			</div>
