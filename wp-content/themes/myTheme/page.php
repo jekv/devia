@@ -4,9 +4,9 @@
 				<h2>DD Accounting<br>Services</h2>
 				<div class="col-md-10">
 					
-					<h3>NEED AN ACCOUNTANT? OR TAX AGENTS?</h3>
-					<p>We are accredited via AFG to assist you in all forms of finance requirements. Hence we can place your loan with all major lenders in the market place depending on your individual needs.</p>
-					<button type = "button" class="btn" onclick="window.location='<?php echo site_url()?>/contact-us/ ?>'">Get a Quote!</button>
+					<?php $post_321 = get_post(321);
+					echo get_post_field('post_content', 321);  ?>
+
 				</div>
 			</div>
 			
@@ -17,14 +17,12 @@
 			<div class="topContent">
 				<div class="row">
 					<div class="col-md-6 about">
-						<h1>About Us</h1>
-						<p>DD Accounting Services provides Public Accountants and Registered Tax Agents.</p>
-						<p>DD Accounting Services is committed to fulfilling client satisfaction to the extent that our service is appreciated and referrals encouraged.</p>
-						<p>We pride ourselves in building strong, long-term business relationships with our clients.</p>
-						<a href="<?php echo site_url()?>/about-us/">Read More</a>
+						<?php $post_314 = get_post(314);
+						echo get_post_field('post_content',$post_314); ?>
 					</div>
 					<div class="col-md-6">
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/aboutus-img.gif" alt="" class="img-responsive">
+						<?php $post_314 = get_post(314);
+						echo get_the_post_thumbnail(314, 'full'); ?>
 					</div>
 				</div> 
 			</div>
@@ -97,14 +95,8 @@ window.newsletter_check = function (f) {
 </script>
 
 			<div class="btmContent">
-				<img src="<?php echo site_url()?>/wp-content/uploads/2015/05/cont-bg-img.gif" alt="" class="img-responsive">
-				<form method="post" action="<?php echo site_url()?>/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
-					
-					<strong class="news">newsletter</strong>
-					<p>Sign up to get <strong>EXCLUSIVE</strong> offers & to be well up in the news.</p>
-					<input class="newsletter-email" type="email" name="ne" required placeholder = "Subscribe Now"></td><button type="submit" class="newsletter-submit btn"><i class="fa fa-paper-plane"></i></button>
-
-				</form>
+				<?php $post_269 = get_post(304);
+				echo get_post_field('post_content', $post_304); ?>
 			</div>
 
 
