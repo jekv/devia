@@ -95,7 +95,7 @@ window.newsletter_check = function (f) {
 </script>
 
 			<div class="btmContent">
-				<?php $post_269 = get_post(304);
+				<?php $post_304 = get_post(304);
 				echo get_post_field('post_content', $post_304); ?>
 			</div>
 
