@@ -3,7 +3,7 @@
  <div class="container mainContent-practice">
  	<div class="row">
  		<div class="col-md-8">
- 			<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Practice Areas</h5>
+ 			<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i>  <?php the_title(); ?></h5>
  			<hr class = "fhr">
  			<?php if (have_posts()) : 
 			while (have_posts()) : the_post(); ?>
@@ -13,7 +13,7 @@
 			endif; ?>
  		</div>
  		<div class="col-md-4">
- 			<?php include 'initcosult.php'; ?>
+ 			<?php include 'initconsult.php'; ?>
  		</div>
  	</div>
  </div>

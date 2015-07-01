@@ -6,7 +6,7 @@
 			<?php if ( have_posts() ) :
 		 while ( have_posts() ) : $i++;  the_post(); ?>
 			<div class = "col-md-8">
-				<p>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Useful Tax Time Resources</p>
+				<p>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i>  <?php the_title(); ?></p>
  					<hr class = "fhr">
 					<img src="<?php the_post_thumbnail(); ?>" alt="" class="img-responsive">
 					<h2><?php the_title(); ?></h2>
@@ -23,7 +23,9 @@
 	 </div>
 	 
 		</div>
-		<div class="partnerships">
+		
+	</div>
+	<div class="partnerships">
 				<?php
 				$post_291 = get_post(291); 
 				$title = $post_291->post_title;
@@ -32,7 +34,6 @@
 				<h2><?php echo $title ?></h2><br>
 				<?php echo get_post_field('post_content', $post_291); ?>	
 			</div>
-	</div>
 	
 				
 

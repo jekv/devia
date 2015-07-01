@@ -6,7 +6,7 @@ get_header();
 		<div class="container mainContent-cfb">
 			<div class="row">
 				<div class="col-md-8">
-					<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Castle Finance Brokers</h5>
+					<h5>You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i>  <?php the_title(); ?></h5>
  					<hr class = "fhr">
 		<h2><?php the_title() ;?></h2>
 		<p class = "firstp"><?php the_content(); ?></p>
@@ -51,7 +51,7 @@ get_header();
 	  </div>
 	 
 	  <div class="col-md-4">
-					<?php include 'initcosult.php'; ?>
+					<?php include 'initconsult.php'; ?>
 				</div>
 	 </div>
 </div>

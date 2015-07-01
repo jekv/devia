@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container mainContent-contact">
 		<div class="row">
-			<p class = "x">You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i> Contact Us</p>
+			<p class = "x">You are here. <a href="<?php echo site_url()?>/">Home</a> <i class="fa fa-angle-double-right"></i>  <?php the_title(); ?></p>
  			<hr class = "fhr">
 			<?php if ( have_posts() ) :
 		 while ( have_posts() ) : $i++;  the_post(); ?>

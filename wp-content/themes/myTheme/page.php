@@ -101,9 +101,7 @@ window.newsletter_check = function (f) {
 
 		<div class="contactU">
 
-			<?php $post_325 = get_post(325);
-			echo get_post_field('post_content', $post_325);
-			 echo do_shortcode( '[contact-form-7 id="133" title="my"]' ); ?>
+			<?php echo do_shortcode( '[contact-form-7 id="133" title="my"]' ); ?>
 </div>
 </div>
 
