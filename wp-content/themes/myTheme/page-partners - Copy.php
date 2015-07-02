@@ -10,7 +10,7 @@
 				<h2><?php the_title(); ?></h2>
 				<div class="row">
 						<div class="col-md-8">
-							<h2><?php the_title(); ?></h2>
+							<h4><?php the_title(); ?></h4>
 							<?php the_post_thumbnail(); ?>
 						</div>
 						<div class="col-md-4 in4">
