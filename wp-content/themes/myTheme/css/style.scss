@@ -92,7 +92,7 @@ img.nelioefi {
 		color:#6c030b;
 		font-size: 250%;
 	}
-	.col-md-10{
+	.wrapper{
 		margin:0 6% 0 6%;
 		h3{
 			text-align: center;
@@ -1739,6 +1739,11 @@ header{
 			}
 		}
 	}
+}
+
+#uPpercentage{
+	display:none;
+	width:0%;
 }
 
 

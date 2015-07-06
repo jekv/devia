@@ -11,7 +11,14 @@ get_header();
 					<h5>You are here. <a href="<?php echo get_page_link(40); ?>">Home</a> <i class="fa fa-angle-double-right"></i> <?php the_title(); ?></h5>
  					<hr class = "fhr">
 					<h2><?php the_title() ;?></h2>
-					<?php the_post_thumbnail() ?>
+					<?php 
+
+						$attr = array(
+
+							'class' => " img-responsive",
+						);
+						 ?> 
+					<?php the_post_thumbnail($attr); ?>
 					<?php the_content(); ?>
 
 					<?php endwhile;

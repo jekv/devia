@@ -43,7 +43,12 @@
 
 	<div class="wrapper">
 		<header class="container header site-header">
-			<h2><strong><a href="<?php echo site_url()?>/ ?>">DD Accounting Services</a></strong></h2>
+			<h2><a href="<?php echo site_url()?>/ ?>"><?php 
+						$attr = array(
+
+							'class' => " img-responsive",
+						);
+						echo get_the_post_thumbnail(378,'full',$attr); ?></a></strong></h2>
 			<div class = "search-bar"><p>☎ (61-3) 9350-6611</p><?php get_search_form(); ?></div>
 		</header>
 

@@ -20,8 +20,15 @@
 						echo get_post_field('post_content',$post_314); ?>
 					</div>
 					<div class="col-md-6">
+						<?php 
+
+						$attr = array(
+
+							'class' => " img-responsive",
+						);
+						 ?>  
 						<?php $post_314 = get_post(314);
-						echo get_the_post_thumbnail(314, 'full'); ?>
+						echo get_the_post_thumbnail(314, 'full',$attr); ?>
 					</div>
 				</div> 
 			</div>
@@ -36,7 +43,14 @@
 					 <?php while ( have_posts() ) : $i++;  the_post(); ?>
 					 
 					 	<div class = "col-md-4">
-							<?php the_post_thumbnail(); ?>
+					 		<?php 
+
+						$attr = array(
+
+							'class' => " img-responsive",
+						);
+						 ?> 
+							<?php the_post_thumbnail($attr); ?>
 							<h4><?php the_title(); ?></h4>
 							<p><?php the_content();?></p>
 						</div>
