@@ -649,6 +649,10 @@ hr {
       width: 100%; }
     .wrapper.ff .fillup-form input, .wrapper.ff .fillup-form select {
       line-height: 40px; }
+    .wrapper.ff .fillup-form .icaptcha {
+      line-height: 24px;
+      margin-top: 5%;
+      width: 26%; }
     .wrapper.ff .fillup-form h6 {
       text-align: center; }
     .wrapper.ff .fillup-form .wpcf7-submit {
